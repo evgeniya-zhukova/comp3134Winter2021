@@ -1,17 +1,22 @@
 • What is the definition of server port?
+Answer: At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. 
+A port is identified for each transport protocol and address combination by a 16-bit unsigned number, known as the port number.
 
-Answer: At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. A port is identified for each transport protocol and address combination by a 16-bit unsigned number, known as the port number.
+
 
 • What is server port range?
+Answer: The port numbers are divided into three ranges: the well-known ports, the registered ports, and the dynamic or private ports. 
+The well-known ports (also known as system ports) are those numbered from 0 through 1023. Registered ports are in the range 1024 to 49151. 
+Dynamic ports are in the range 49152 to 65535.
 
-Answer: The port numbers are divided into three ranges: the well-known ports, the registered ports, and the dynamic or private ports. The well-known ports (also known as system ports) are those numbered from 0 through 1023. Registered ports are in the range 1024 to 49151. Dynamic ports are in the range 49152 to 65535.
+
 
 • How many bits does number above represent?
-
 Answer: A 16-bit integer can store 2^16 (or 65,536) distinct values.
 
-• State 10 common server ports
 
+
+• State 10 common server ports
 Answer:
 1. File Transfer Protocol (FTP) port
 2. Secure Shell (SSH) service
