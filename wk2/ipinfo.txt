@@ -1,0 +1,26 @@
+Searched at https://ipinfo.info/html/ip_checker.php
+
+1.
+Domain Name: timhortons.ca
+IP Address: 13.226.25.79
+Geolocation: US (United States), CT, Connecticut, 06850 Norwalk
+
+2.
+Domain Name: utoronto.ca
+IP Address: 128.100.166.120
+Geolocation: CA (Canada), ON, Ontario, M5S Toronto
+
+3.
+Domain Name: torontozoo.com
+IP Address: 216.220.59.251
+Geolocation: CA (Canada), ON, Ontario, M5V Toronto
+
+4.
+Domain Name: sunnybrook.ca
+IP Address: 142.76.1.115
+Geolocation: CA (Canada), ON, Ontario, M4T Toronto
+
+5.
+Domain Name: loblaws.ca
+IP Address: 104.107.16.159
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge
