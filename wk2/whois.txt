@@ -1,0 +1,157 @@
+Searched at https://www.cira.ca/
+
+1.
+Domain name	georgebrown.ca
+Domain name status	Registered
+Creation date	2002-07-04T08:35:23Z
+Expiry date	2021-07-04T04:00:00Z
+Updated date	2021-01-23T16:05:03Z
+DNSSEC	Unsigned
+Registrar information
+Registrar name	Webnames.ca Inc.
+Registrar URL	www.webnames.ca
+Registrant information
+Registrant name	George Brown College (Toronto)
+Contact information
+Administrative contact
+Name	Andrew Riem
+Phone	+14164155000;ext=5012
+Fax	+14164154667
+Email	ariem@georgebrown.ca
+Technical contact
+Name	Dorin Grunberg
+Phone	+14164155000;ext=4935
+Fax	+14164154836
+Email	dgrunberg@georgebrown.ca
+Name servers
+DNS 1 hostname	ns1.d-zone.ca
+DNS 2 hostname	ns1.georgebrown.ca
+DNS 3 hostname	ns2.d-zone.ca
+DNS 4 hostname	ns2.georgebrown.ca
+
+
+2.
+Domain name	amazon.ca
+Domain name status	Registered
+Creation date	2000-09-19T18:44:39Z
+Expiry date	2024-07-16T04:00:00Z
+Updated date	2020-07-16T04:02:59Z
+DNSSEC	Unsigned
+Registrar information
+Registrar name	MarkMonitor International Canada Ltd.
+Registrar URL	Markmonitor.com
+Registrant information
+Registrant name	Amazon Technologies, Inc. TMA499121
+Contact information
+Administrative contact
+Name	David C Arnett
+Phone	+12062664064
+Fax	+12062667010
+Email	hostmaster@amazon.com
+Technical contact
+Name	David C Arnett
+Phone	+12062664064
+Fax	+12062667010
+Email	hostmaster@amazon.com
+Name servers
+DNS 1 hostname	ns1.p31.dynect.net
+DNS 2 hostname	ns2.p31.dynect.net
+DNS 3 hostname	pdns1.ultradns.net
+DNS 4 hostname	pdns3.ultradns.org
+DNS 5 hostname	pdns4.ultradns.org
+DNS 6 hostname	pdns5.ultradns.info
+
+
+3.
+Domain name	walmart.ca
+Domain name status	Registered
+Creation date	2000-11-08T19:51:24Z
+Expiry date	2022-12-01T05:00:00Z
+Updated date	2020-10-30T09:42:13Z
+DNSSEC	Unsigned
+Registrar information
+Registrar name	MarkMonitor International Canada Ltd.
+Registrar URL	Markmonitor.com
+Registrant information
+Registrant name	Wal-Mart Canada Corp
+Contact information
+Administrative contact
+Name	Kelly-Anne Kenny
+Phone	+19058212111
+Fax	+19058216353
+Email	netnames@wal-mart.com
+Technical contact
+Name	Kelly-Anne Kenny
+Phone	+19058212111
+Fax	+19058216353
+Email	netnames@wal-mart.com
+Name servers
+DNS 1 hostname	eur2.akam.net
+DNS 2 hostname	eur3.akam.net
+DNS 3 hostname	eur6.akam.net
+DNS 4 hostname	ns1-137.akam.net
+DNS 5 hostname	ns1-189.akam.net
+DNS 6 hostname	ns10.wal-mart.com
+DNS 7 hostname	ns8.wal-mart.com
+DNS 8 hostname	ns9.wal-mart.com
+DNS 9 hostname	usc5.akam.net
+DNS 10 hostname	use3.akam.net
+DNS 11 hostname	use4.akam.net
+DNS 12 hostname	use9.akam.net
+
+
+4.
+Domain name	toysrus.ca
+Domain name status	Registered
+Creation date	2000-10-24T21:19:11Z
+Expiry date	2021-07-10T04:00:00Z
+Updated date	2020-06-08T09:34:38Z
+DNSSEC	Unsigned
+Registrar information
+Registrar name	MarkMonitor International Canada Ltd.
+Registrar URL	Markmonitor.com
+Registrant information
+Registrant name	Toys R Us (Canada) LTD
+Contact information
+Administrative contact
+Name	Jessica Agnew
+Phone	+19056602004
+Fax	+19056602004
+Email	Jessica.Agnew@toysrus.ca
+Technical contact
+Name	Jessica Agnew
+Phone	+19056602004
+Fax	+19056602004
+Email	Jessica.Agnew@toysrus.ca
+Name servers
+DNS 1 hostname	dns1.easydns.com
+DNS 2 hostname	dns2.easydns.net
+DNS 3 hostname	dns3.easydns.org
+DNS 4 hostname	dns4.easydns.info
+
+
+5.
+Domain name	cartersoshkosh.ca
+Domain name status	Registered
+Creation date	2008-06-16T14:58:38Z
+Expiry date	2021-06-16T04:00:00Z
+Updated date	2020-06-08T23:31:41Z
+DNSSEC	Unsigned
+Registrar information
+Registrar name	SN Domains Inc
+Registrar URL	www.sndomains.ca
+Registrant information
+Registrant name	The Genuine Canadian Corp
+Contact information
+Administrative contact
+Name	Carter Carter
+Phone	+15196246574
+Email	domain.administrator@carters.com
+Technical contact
+Name	Mark McSwain
+Phone	770-228-2427
+Email	domain.administrator@carters.com
+Name servers
+DNS 1 hostname	dns1.idp365.net
+DNS 2 hostname	dns2.idp365.net
+DNS 3 hostname	dns3.idp365.net
