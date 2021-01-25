@@ -1,0 +1,32 @@
+1.
+polos@LAPTOP-FFIOIII9 MINGW64 ~ (master)
+$ ping 138.197.159.65
+
+Pinging 138.197.159.65 with 32 bytes of data:
+Reply from 138.197.159.65: bytes=32 time=18ms TTL=55
+Reply from 138.197.159.65: bytes=32 time=13ms TTL=55
+Reply from 138.197.159.65: bytes=32 time=13ms TTL=55
+Reply from 138.197.159.65: bytes=32 time=14ms TTL=55
+
+Ping statistics for 138.197.159.65:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 13ms, Maximum = 18ms, Average = 14ms
+
+
+
+2.
+polos@LAPTOP-FFIOIII9 MINGW64 ~ (master)
+$ ping 138.197.159.65 -w 20
+
+Pinging 138.197.159.65 with 32 bytes of data:
+Reply from 138.197.159.65: bytes=32 time=16ms TTL=55
+Reply from 138.197.159.65: bytes=32 time=15ms TTL=55
+Reply from 138.197.159.65: bytes=32 time=14ms TTL=55
+Reply from 138.197.159.65: bytes=32 time=13ms TTL=55
+
+Ping statistics for 138.197.159.65:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 13ms, Maximum = 16ms, Average = 14ms
+
