@@ -1,0 +1,1170 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+21:27:41.736320 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 935851107:935851151, ack 3305452887, win 501, length 44
+21:27:41.736565 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 44:152, ack 1, win 501, length 108
+21:27:41.736722 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 152:188, ack 1, win 501, length 36
+21:27:41.746585 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 188, win 3085, length 0
+21:27:46.567434 IP 194.147.140.82.48971 > 143.110.223.72.5490: Flags [S], seq 3958662822, win 1024, length 0
+21:27:47.288165 IP 143.110.223.72.55586 > golem.canonical.com.ntp: NTPv4, Client, length 48
+21:27:47.366688 IP golem.canonical.com.ntp > 143.110.223.72.55586: NTPv4, Server, length 48
+21:27:47.815534 IP 185.236.11.150.49341 > 143.110.223.72.15525: Flags [S], seq 4207721320, win 1024, length 0
+21:27:50.367947 IP 185.236.11.34.49689 > 143.110.223.72.25354: Flags [S], seq 633149595, win 1024, length 0
+21:28:01.381221 IP 185.173.35.17.netsystemsresearch.com.60377 > 143.110.223.72.47808: UDP, length 17
+21:28:08.908276 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53170 > 143.110.223.72.http-alt: Flags [S], seq 2801913935, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:09.835870 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53170 > 143.110.223.72.http-alt: Flags [S], seq 2801913935, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:10.523658 IP 185.236.11.150.49341 > 143.110.223.72.15734: Flags [S], seq 680954584, win 1024, length 0
+21:28:11.854485 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53170 > 143.110.223.72.http-alt: Flags [S], seq 2801913935, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:23.603598 IP 194.147.140.88.48772 > 143.110.223.72.ftp: Flags [S], seq 801290025, win 1024, length 0
+21:28:28.574768 IP 194.147.140.32.48073 > 143.110.223.72.3285: Flags [S], seq 858683233, win 1024, length 0
+21:28:31.741768 IP 194.147.140.88.48772 > 143.110.223.72.login: Flags [S], seq 2170082079, win 1024, length 0
+21:28:32.865173 IP 185.236.11.34.49689 > 143.110.223.72.25492: Flags [S], seq 1473139880, win 1024, length 0
+21:28:46.348891 IP 194.147.140.82.48971 > 143.110.223.72.5376: Flags [S], seq 2897458130, win 1024, length 0
+21:28:48.029251 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53203 > 143.110.223.72.http-alt: Flags [S], seq 3604154177, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:48.967182 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53203 > 143.110.223.72.http-alt: Flags [S], seq 3604154177, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:49.565462 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53204 > 143.110.223.72.http-alt: Flags [S], seq 230381447, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:50.030042 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53205 > 143.110.223.72.http-alt: Flags [S], seq 3631772234, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:50.389781 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53206 > 143.110.223.72.http-alt: Flags [S], seq 927802557, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:50.583084 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53204 > 143.110.223.72.http-alt: Flags [S], seq 230381447, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:51.017051 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53203 > 143.110.223.72.http-alt: Flags [S], seq 3604154177, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:51.049204 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53205 > 143.110.223.72.http-alt: Flags [S], seq 3631772234, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:51.076724 IP 79.124.62.74.http-alt > 143.110.223.72.4642: Flags [S], seq 2248255362, win 1024, length 0
+21:28:51.402283 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53206 > 143.110.223.72.http-alt: Flags [S], seq 927802557, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:52.511968 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53204 > 143.110.223.72.http-alt: Flags [S], seq 230381447, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:52.979615 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53205 > 143.110.223.72.http-alt: Flags [S], seq 3631772234, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:28:53.329932 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53206 > 143.110.223.72.http-alt: Flags [S], seq 927802557, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:01.399055 IP 195.54.161.150.42266 > 143.110.223.72.26780: Flags [S], seq 16657770, win 1024, length 0
+21:29:02.684686 IP 194.147.140.82.48971 > 143.110.223.72.5274: Flags [S], seq 1796492574, win 1024, length 0
+21:29:03.366261 IP 185.236.11.150.49341 > 143.110.223.72.15780: Flags [S], seq 1550873020, win 1024, length 0
+21:29:05.599139 IP 209.141.55.141.37862 > 143.110.223.72.domain: 50293+ [1au] ANY? . (33)
+21:29:08.277935 IP 79.124.62.74.http-alt > 143.110.223.72.2300: Flags [S], seq 2741045084, win 1024, length 0
+21:29:12.871834 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207 > 143.110.223.72.http: Flags [S], seq 3938453231, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:12.871939 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207: Flags [S.], seq 898956104, ack 3938453232, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:12.983621 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:12.983704 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:12.983761 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207: Flags [.], ack 9, win 502, length 0
+21:29:13.489253 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:13.489429 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:13.615095 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53207 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:14.731719 IP 79.124.62.74.http-alt > 143.110.223.72.5548: Flags [S], seq 1642538521, win 1024, length 0
+21:29:17.872105 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208 > 143.110.223.72.http: Flags [S], seq 37020827, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:17.872236 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208: Flags [S.], seq 834768694, ack 37020828, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:18.014313 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:18.016162 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:18.016239 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208: Flags [.], ack 9, win 502, length 0
+21:29:18.170673 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209 > 143.110.223.72.http: Flags [S], seq 1495559910, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:18.170793 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209: Flags [S.], seq 1066418639, ack 1495559911, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:18.313668 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:18.315818 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:18.315930 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209: Flags [.], ack 9, win 502, length 0
+21:29:18.395551 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210 > 143.110.223.72.http: Flags [S], seq 3055400904, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:18.395664 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210: Flags [S.], seq 54212909, ack 3055400905, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:18.514389 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:18.514586 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:18.537814 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:18.540756 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:18.540835 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210: Flags [.], ack 9, win 502, length 0
+21:29:18.659985 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53208 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:18.817539 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:18.817725 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:18.967925 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53209 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:19.053850 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:19.054106 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:19.191360 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53210 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:19.329695 IP 194.147.140.88.48772 > 143.110.223.72.51: Flags [S], seq 641575203, win 1024, length 0
+21:29:21.093541 IP 185.236.11.34.49689 > 143.110.223.72.25599: Flags [S], seq 2791202067, win 1024, length 0
+21:29:25.142648 IP 194.147.140.88.48772 > 143.110.223.72.150: Flags [S], seq 1999248102, win 1024, length 0
+21:29:27.163215 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213 > 143.110.223.72.http: Flags [S], seq 3347282970, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:27.163317 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213: Flags [S.], seq 510276803, ack 3347282971, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:27.348929 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:27.351080 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:27.351182 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213: Flags [.], ack 9, win 502, length 0
+21:29:27.689694 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214 > 143.110.223.72.http: Flags [S], seq 145437600, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:27.689806 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214: Flags [S.], seq 719375225, ack 145437601, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:27.860859 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:27.861041 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:27.878778 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:27.881178 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:27.881243 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214: Flags [.], ack 9, win 502, length 0
+21:29:27.991737 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215 > 143.110.223.72.http: Flags [S], seq 2854399434, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:27.991846 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215: Flags [S.], seq 2182846383, ack 2854399435, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:28.010342 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:28.010448 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215: Flags [.], ack 9, win 502, length 0
+21:29:28.049725 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53213 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:28.178590 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216 > 143.110.223.72.http: Flags [S], seq 4268634426, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:28.178687 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216: Flags [S.], seq 2923002752, ack 4268634427, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:28.196288 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:28.196354 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215: Flags [.], ack 9, win 502, length 0
+21:29:28.357238 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217 > 143.110.223.72.http: Flags [S], seq 2996492162, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:28.357381 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217: Flags [S.], seq 4014007213, ack 2996492163, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:28.399740 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:28.399816 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:28.399880 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216: Flags [.], ack 9, win 502, length 0
+21:29:28.406501 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:28.406650 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:28.512498 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218 > 143.110.223.72.http: Flags [S], seq 1013328290, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:28.512614 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218: Flags [S.], seq 3006511084, ack 1013328291, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:28.564799 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:28.565910 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:28.565980 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217: Flags [.], ack 9, win 502, length 0
+21:29:28.616836 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53214 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:28.735496 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219 > 143.110.223.72.http: Flags [S], seq 814024415, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:28.735599 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219: Flags [S.], seq 2734551914, ack 814024416, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:28.737774 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:28.737929 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:28.746680 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:28.746706 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:28.746740 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218: Flags [.], ack 9, win 502, length 0
+21:29:28.879588 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220 > 143.110.223.72.http: Flags [S], seq 3900157187, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:28.879705 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220: Flags [S.], seq 64010657, ack 3900157188, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:28.907340 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:28.907513 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:28.950330 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:28.952589 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:28.952662 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219: Flags [.], ack 9, win 502, length 0
+21:29:28.954197 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53215 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:29.051299 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221 > 143.110.223.72.http: Flags [S], seq 3366501695, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:29.051421 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221: Flags [S.], seq 3422085015, ack 3366501696, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:29.069398 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:29.069702 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:29.072617 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:29.072710 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221: Flags [.], ack 9, win 502, length 0
+21:29:29.092834 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:29.097053 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:29.097127 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220: Flags [.], ack 9, win 502, length 0
+21:29:29.126879 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53216 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:29.200305 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222 > 143.110.223.72.http: Flags [S], seq 153572791, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:29.200405 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222: Flags [S.], seq 400052982, ack 153572792, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:29.218789 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:29.218972 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:29.220688 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:29.220775 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222: Flags [.], ack 9, win 502, length 0
+21:29:29.252479 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:29.252556 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221: Flags [.], ack 9, win 502, length 0
+21:29:29.267506 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53217 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:29.345266 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223 > 143.110.223.72.http: Flags [S], seq 3607215559, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:29:29.345368 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223: Flags [S.], seq 932841729, ack 3607215560, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:29:29.367658 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223 > 143.110.223.72.http: Flags [P.], seq 1:9, ack 1, win 513, length 8: HTTP
+21:29:29.367778 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223: Flags [.], ack 9, win 502, length 0
+21:29:29.411965 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:29.412049 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222: Flags [.], ack 9, win 502, length 0
+21:29:29.429758 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53218 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:29.449449 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:29.449603 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:29.562529 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:29:29.562619 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223: Flags [.], ack 9, win 502, length 0
+21:29:29.562919 IP 185.141.170.43.45306 > 143.110.223.72.ssh: Flags [S], seq 3480331671, win 29200, options [mss 1460,sackOK,TS val 117505829 ecr 0,nop,wscale 7], length 0
+21:29:29.562995 IP 143.110.223.72.ssh > 185.141.170.43.45306: Flags [S.], seq 1850181984, ack 3480331672, win 65160, options [mss 1460,sackOK,TS val 937388473 ecr 117505829,nop,wscale 7], length 0
+21:29:29.598218 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:29.598393 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:29.671643 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53219 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:29.787282 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:29.787462 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:29.822956 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53220 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:29.844961 IP 185.141.170.43.45306 > 143.110.223.72.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 117505900 ecr 937388473], length 0
+21:29:29.868447 IP 143.110.223.72.ssh > 185.141.170.43.45306: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 937388779 ecr 117505900], length 41
+21:29:29.935408 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:29.935618 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:30.015210 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53221 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:30.083609 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223 > 143.110.223.72.http: Flags [F.], seq 9, ack 1, win 513, length 0
+21:29:30.083797 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223: Flags [F.], seq 1, ack 10, win 502, length 0
+21:29:30.149642 IP 185.141.170.43.45306 > 143.110.223.72.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 117505976 ecr 937388779], length 0
+21:29:30.149824 IP 185.141.170.43.45306 > 143.110.223.72.ssh: Flags [F.], seq 1, ack 42, win 229, options [nop,nop,TS val 117505976 ecr 937388779], length 0
+21:29:30.149916 IP 143.110.223.72.ssh > 185.141.170.43.45306: Flags [.], ack 2, win 510, options [nop,nop,TS val 937389060 ecr 117505976], length 0
+21:29:30.156266 IP 143.110.223.72.ssh > 185.141.170.43.45306: Flags [F.], seq 42, ack 2, win 510, options [nop,nop,TS val 937389067 ecr 117505976], length 0
+21:29:30.164112 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53222 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:30.315200 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53223 > 143.110.223.72.http: Flags [.], ack 2, win 513, length 0
+21:29:30.437975 IP 185.141.170.43.45306 > 143.110.223.72.ssh: Flags [.], ack 43, win 229, options [nop,nop,TS val 117506048 ecr 937389067], length 0
+21:29:32.112345 IP broadband.actcorp.in.52220 > 143.110.223.72.microsoft-ds: Flags [S], seq 3451487967, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+21:29:32.867676 IP 185.236.11.34.49689 > 143.110.223.72.25381: Flags [S], seq 3802609630, win 1024, length 0
+21:29:33.536047 IP 122.228.19.79.33315 > 143.110.223.72.2424: Flags [S], seq 3022726768, win 29200, options [mss 1460], length 0
+21:29:47.840651 IP 185.236.11.200.49516 > 143.110.223.72.20852: Flags [S], seq 455278365, win 1024, length 0
+21:29:49.020235 IP 185.236.11.34.49689 > 143.110.223.72.25332: Flags [S], seq 1099404195, win 1024, length 0
+21:29:50.798661 IP 185.236.11.34.49689 > 143.110.223.72.25566: Flags [S], seq 3651409115, win 1024, length 0
+21:29:58.217112 IP 194.147.140.82.48971 > 143.110.223.72.5581: Flags [S], seq 3095349696, win 1024, length 0
+21:30:14.829799 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [S], seq 3724745995, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:14.829903 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [S.], seq 4262710830, ack 3724745996, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:14.844779 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:14.849579 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:14.849666 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 1461, win 501, length 0
+21:30:14.849918 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:14.849948 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 2921, win 501, length 0
+21:30:14.850230 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:14.850266 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 4381, win 495, length 0
+21:30:14.850367 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [P.], seq 1:484, ack 4381, win 495, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:14.850401 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [F.], seq 484, ack 4381, win 495, length 0
+21:30:14.850597 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:14.850626 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 5841, win 501, length 0
+21:30:14.850765 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:14.850789 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 7301, win 501, length 0
+21:30:14.851010 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:14.851071 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 8761, win 501, length 0
+21:30:14.851535 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:14.851574 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 10923, win 495, length 0
+21:30:14.866714 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:14.871254 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:14.871302 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53228: Flags [.], ack 10924, win 501, length 0
+21:30:16.045965 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [S], seq 248205564, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:16.046091 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [S.], seq 209287085, ack 248205565, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:16.064692 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:16.064947 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:16.065030 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 1461, win 501, length 0
+21:30:16.065166 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:30:16.065195 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 4381, win 485, length 0
+21:30:16.065482 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [P.], seq 1:484, ack 4381, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:16.065524 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [F.], seq 484, ack 4381, win 501, length 0
+21:30:16.065584 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:16.065604 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 5841, win 501, length 0
+21:30:16.065715 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:16.065747 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 7301, win 501, length 0
+21:30:16.066074 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:16.066106 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 8761, win 501, length 0
+21:30:16.066185 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:16.066232 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 10221, win 494, length 0
+21:30:16.066352 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:16.066390 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 10923, win 501, length 0
+21:30:16.081913 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:16.087671 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:16.087713 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53229: Flags [.], ack 10924, win 501, length 0
+21:30:16.616362 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [S], seq 2738495464, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:16.616482 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [S.], seq 2326443520, ack 2738495465, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:16.645180 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:16.651539 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [.], seq 1:2921, ack 1, win 513, length 2920: HTTP
+21:30:16.651653 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [.], ack 2921, win 495, length 0
+21:30:16.651719 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:16.651738 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [.], ack 4381, win 487, length 0
+21:30:16.651849 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:16.651875 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [.], ack 5841, win 479, length 0
+21:30:16.652046 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:16.652070 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [.], ack 7301, win 501, length 0
+21:30:16.652242 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [P.], seq 1:484, ack 7301, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:16.652279 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:16.652302 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [.], ack 8761, win 495, length 0
+21:30:16.652336 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [F.], seq 484, ack 8761, win 495, length 0
+21:30:16.652552 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:16.652589 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [.], ack 10923, win 495, length 0
+21:30:16.669869 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:16.674586 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:16.674630 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53230: Flags [.], ack 10924, win 501, length 0
+21:30:17.032454 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [S], seq 2629804034, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:17.032565 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [S.], seq 1408215240, ack 2629804035, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:17.051355 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:17.068162 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:17.068268 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 1461, win 501, length 0
+21:30:17.068579 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:17.068632 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:17.068691 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 2921, win 494, length 0
+21:30:17.068740 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:17.068771 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:17.068790 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 4381, win 490, length 0
+21:30:17.069111 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:17.069167 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 5841, win 501, length 0
+21:30:17.069248 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:17.069283 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 7301, win 495, length 0
+21:30:17.069698 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:17.069770 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 8761, win 501, length 0
+21:30:17.069901 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:17.069946 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 10923, win 487, length 0
+21:30:17.084373 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:17.091962 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:17.092048 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53231: Flags [.], ack 10924, win 501, length 0
+21:30:17.326153 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [S], seq 1341272259, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:17.326273 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [S.], seq 1996143338, ack 1341272260, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:17.343572 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:17.348427 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:17.348516 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 1461, win 501, length 0
+21:30:17.348802 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:17.348831 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 2921, win 501, length 0
+21:30:17.349023 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:17.349072 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:17.349639 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:17.349693 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 4381, win 501, length 0
+21:30:17.350417 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:17.350451 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 5841, win 501, length 0
+21:30:17.351264 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:17.351312 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 7301, win 501, length 0
+21:30:17.351652 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:17.351723 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 8761, win 501, length 0
+21:30:17.351773 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:17.351791 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 10221, win 495, length 0
+21:30:17.352449 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:17.352488 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 10923, win 501, length 0
+21:30:17.368873 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:17.368925 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:17.368952 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53232: Flags [.], ack 10924, win 501, length 0
+21:30:17.534977 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [S], seq 1534531491, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:17.535134 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [S.], seq 2098748483, ack 1534531492, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:17.553016 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:17.559385 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:17.559504 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [.], ack 1461, win 501, length 0
+21:30:17.559578 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:17.559603 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [.], ack 2921, win 495, length 0
+21:30:17.559944 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:17.560029 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:17.560497 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [.], seq 4381:7301, ack 1, win 513, length 2920: HTTP
+21:30:17.560550 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [.], ack 2921, win 501, options [nop,nop,sack 1 {4381:7301}], length 0
+21:30:17.560580 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:17.560622 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [.], ack 7301, win 489, length 0
+21:30:17.560878 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:17.560984 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [.], ack 8761, win 501, length 0
+21:30:17.561379 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:17.561420 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [.], ack 10923, win 497, length 0
+21:30:17.577673 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:17.584363 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:17.584443 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53233: Flags [.], ack 10924, win 501, length 0
+21:30:17.811161 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [S], seq 2129305970, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:17.811269 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [S.], seq 1639646550, ack 2129305971, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:17.824816 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [S], seq 2039085059, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:17.824890 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [S.], seq 68712672, ack 2039085060, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:17.830451 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:17.830923 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [.], seq 1:2921, ack 1, win 513, length 2920: HTTP
+21:30:17.830994 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [.], ack 2921, win 495, length 0
+21:30:17.831413 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:17.831454 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [.], ack 4381, win 501, length 0
+21:30:17.831696 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [P.], seq 1:484, ack 4381, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:17.831741 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [F.], seq 484, ack 4381, win 501, length 0
+21:30:17.831966 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:17.832017 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [.], ack 5841, win 501, length 0
+21:30:17.832246 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:17.832279 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [.], ack 7301, win 501, length 0
+21:30:17.832893 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:17.832933 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [.], ack 8761, win 501, length 0
+21:30:17.833344 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:17.833378 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [.], ack 10923, win 495, length 0
+21:30:17.839949 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:17.844766 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:17.844840 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 1461, win 501, length 0
+21:30:17.845106 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:17.845161 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:30:17.845633 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:30:17.845666 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 4381, win 495, length 0
+21:30:17.846212 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:17.846246 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 5841, win 501, length 0
+21:30:17.846752 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [.], seq 7301:10221, ack 1, win 513, length 2920: HTTP
+21:30:17.846799 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 5841, win 501, options [nop,nop,sack 1 {7301:10221}], length 0
+21:30:17.846819 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:17.846878 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 10221, win 489, length 0
+21:30:17.846927 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:17.846947 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 10923, win 484, length 0
+21:30:17.852222 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:17.852294 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:17.852314 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53234: Flags [.], ack 10924, win 501, length 0
+21:30:17.860350 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:17.865364 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:17.865405 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 10924, win 501, length 0
+21:30:17.902101 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:30:17.902185 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53235: Flags [.], ack 10924, win 501, length 0
+21:30:18.012286 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [S], seq 2554912791, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:18.012393 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [S.], seq 955077917, ack 2554912792, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:18.033256 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:18.033326 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:18.033384 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [.], ack 1461, win 501, length 0
+21:30:18.033687 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:30:18.033719 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [.], ack 4381, win 495, length 0
+21:30:18.033791 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [P.], seq 1:484, ack 4381, win 495, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:18.033833 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [F.], seq 484, ack 4381, win 495, length 0
+21:30:18.034093 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:18.034138 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [.], ack 5841, win 501, length 0
+21:30:18.034215 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:18.034233 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [.], ack 7301, win 495, length 0
+21:30:18.034586 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:18.034625 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [.], ack 8761, win 501, length 0
+21:30:18.035105 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:18.035147 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [.], ack 10923, win 495, length 0
+21:30:18.051487 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:18.058218 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:18.058302 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53236: Flags [.], ack 10924, win 501, length 0
+21:30:18.862089 IP 194.147.140.88.48772 > 143.110.223.72.374: Flags [S], seq 3730139314, win 1024, length 0
+21:30:19.862336 IP 194.147.140.88.48772 > 143.110.223.72.213: Flags [S], seq 2102829756, win 1024, length 0
+21:30:27.827513 IP 194.147.140.81.49190 > 143.110.223.72.10807: Flags [S], seq 3249321954, win 1024, length 0
+21:30:28.250900 IP 194.147.140.82.48971 > 143.110.223.72.5300: Flags [S], seq 1175239955, win 1024, length 0
+21:30:30.719738 IP 185.193.91.238.53817 > 143.110.223.72.36612: Flags [S], seq 2628295112, win 1024, length 0
+21:30:34.386525 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [S], seq 4218068437, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:34.386612 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [S.], seq 3305305102, ack 4218068438, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:34.403436 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:34.429542 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:34.429631 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 1461, win 501, length 0
+21:30:34.429827 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:34.429858 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 2921, win 495, length 0
+21:30:34.430082 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:34.430123 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:34.430981 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:34.431020 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 4381, win 501, length 0
+21:30:34.431966 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:34.432001 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 5841, win 501, length 0
+21:30:34.433213 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [.], seq 5841:8761, ack 1, win 513, length 2920: HTTP
+21:30:34.433269 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 8761, win 493, length 0
+21:30:34.434061 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:34.434106 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 10923, win 495, length 0
+21:30:34.445393 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:34.453171 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:34.453218 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 10924, win 501, length 0
+21:30:34.519480 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:30:34.519583 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53237: Flags [.], ack 10924, win 501, length 0
+21:30:35.217113 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [S], seq 2166425914, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:35.217262 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [S.], seq 236736323, ack 2166425915, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:35.235989 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:35.240852 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:35.240926 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 1461, win 501, length 0
+21:30:35.241065 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:35.241094 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 2921, win 495, length 0
+21:30:35.241336 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:35.241388 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:35.241841 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:35.241878 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 4381, win 501, length 0
+21:30:35.241955 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:35.241978 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 5841, win 495, length 0
+21:30:35.242200 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:35.242244 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 7301, win 501, length 0
+21:30:35.242712 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:35.242762 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 8761, win 501, length 0
+21:30:35.243984 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:35.244027 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 10923, win 495, length 0
+21:30:35.293661 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:35.293755 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:35.293780 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53238: Flags [.], ack 10924, win 501, length 0
+21:30:35.430327 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [S], seq 3487949717, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:35.430433 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [S.], seq 1222906380, ack 3487949718, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:35.444807 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:35.451607 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], seq 1:2921, ack 1, win 513, length 2920: HTTP
+21:30:35.451681 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 2921, win 493, length 0
+21:30:35.451765 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:35.451817 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 4381, win 485, length 0
+21:30:35.452068 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [P.], seq 1:484, ack 4381, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:35.452138 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [F.], seq 484, ack 4381, win 501, length 0
+21:30:35.452240 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:35.452274 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 5841, win 501, length 0
+21:30:35.452475 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:35.452500 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 7301, win 501, length 0
+21:30:35.452702 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:35.452748 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 8761, win 501, length 0
+21:30:35.453345 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:35.453384 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 10221, win 501, length 0
+21:30:35.453999 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:35.454053 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 10923, win 501, length 0
+21:30:35.470786 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:35.478149 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:35.478203 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53239: Flags [.], ack 10924, win 501, length 0
+21:30:35.721929 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [S], seq 1716910113, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:35.722040 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [S.], seq 1006551343, ack 1716910114, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:35.738611 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:35.752961 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:35.753052 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 1461, win 501, length 0
+21:30:35.753347 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:35.753404 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:30:35.753626 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:35.753663 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 2921, win 501, length 0
+21:30:35.754102 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:35.754136 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 4381, win 501, length 0
+21:30:35.754191 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:35.754207 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 5841, win 495, length 0
+21:30:35.754625 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:35.754682 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 7301, win 501, length 0
+21:30:35.755450 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], seq 7301:10221, ack 1, win 513, length 2920: HTTP
+21:30:35.755493 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 10221, win 495, length 0
+21:30:35.756179 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:35.756216 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 10923, win 501, length 0
+21:30:35.768368 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:35.774911 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:35.774951 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53240: Flags [.], ack 10924, win 501, length 0
+21:30:35.780225 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [S], seq 319329146, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:35.780303 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [S.], seq 2123653027, ack 319329147, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:35.794223 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:35.799360 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:35.799440 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 1461, win 501, length 0
+21:30:35.799716 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:35.799781 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:30:35.800391 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:30:35.800434 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 4381, win 495, length 0
+21:30:35.800503 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:35.800529 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 5841, win 487, length 0
+21:30:35.800751 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:35.800781 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 7301, win 501, length 0
+21:30:35.800974 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:35.801017 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 8761, win 501, length 0
+21:30:35.801251 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:35.801303 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 10221, win 501, length 0
+21:30:35.801377 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:35.801399 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 10923, win 496, length 0
+21:30:35.819780 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:35.824575 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:35.824613 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53241: Flags [.], ack 10924, win 501, length 0
+21:30:36.044445 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [S], seq 1560178003, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:36.044547 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [S.], seq 2997619911, ack 1560178004, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:36.063552 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:36.081629 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:36.081723 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 1461, win 501, length 0
+21:30:36.081989 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:36.082017 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 2921, win 501, length 0
+21:30:36.082151 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:36.082211 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:36.082278 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:36.082304 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 4381, win 495, length 0
+21:30:36.082517 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:36.082542 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 5841, win 501, length 0
+21:30:36.082729 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:36.082750 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 7301, win 501, length 0
+21:30:36.082967 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:36.082987 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 8761, win 501, length 0
+21:30:36.083191 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:36.083216 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 10923, win 493, length 0
+21:30:36.097274 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:36.102922 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:36.102970 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53242: Flags [.], ack 10924, win 501, length 0
+21:30:36.271478 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [S], seq 4073760639, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:36.271591 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [S.], seq 3352112221, ack 4073760640, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:36.288559 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:36.292910 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:36.292980 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [.], ack 1461, win 501, length 0
+21:30:36.293241 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:36.293298 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:30:36.294955 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:30:36.295013 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [.], ack 4381, win 495, length 0
+21:30:36.295073 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:36.295091 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [.], ack 5841, win 487, length 0
+21:30:36.295322 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:36.295364 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [.], ack 7301, win 501, length 0
+21:30:36.295984 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:36.296022 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [.], ack 8761, win 501, length 0
+21:30:36.296313 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:36.296343 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [.], ack 10923, win 495, length 0
+21:30:36.320787 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:36.320837 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:36.320854 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53243: Flags [.], ack 10924, win 501, length 0
+21:30:36.506872 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [S], seq 2493788438, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:36.506991 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [S.], seq 1827836064, ack 2493788439, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:36.524762 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [S], seq 3902836608, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:36.524865 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [S.], seq 1826591892, ack 3902836609, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:36.530974 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:36.531074 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [.], seq 1:2921, ack 1, win 513, length 2920: HTTP
+21:30:36.531127 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [.], ack 2921, win 495, length 0
+21:30:36.531422 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:36.531505 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:36.531925 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:36.531966 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [.], ack 4381, win 501, length 0
+21:30:36.532321 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:36.532356 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [.], ack 5841, win 501, length 0
+21:30:36.532894 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [.], seq 7301:10221, ack 1, win 513, length 2920: HTTP
+21:30:36.532923 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [.], ack 5841, win 501, options [nop,nop,sack 1 {7301:10221}], length 0
+21:30:36.532940 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:36.532975 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [.], ack 10221, win 489, length 0
+21:30:36.537191 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:36.537242 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [.], ack 10923, win 501, length 0
+21:30:36.544766 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:36.549343 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:36.549422 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [.], ack 1461, win 501, length 0
+21:30:36.549640 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:36.549694 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:30:36.550021 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:36.550057 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [.], ack 2921, win 501, length 0
+21:30:36.550107 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:36.550122 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [.], ack 4381, win 495, length 0
+21:30:36.550977 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:36.551018 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:36.551077 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53244: Flags [.], ack 10924, win 501, length 0
+21:30:36.551143 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [P.], seq 4381:10923, ack 1, win 513, length 6542: HTTP
+21:30:36.551188 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [.], ack 10923, win 471, length 0
+21:30:36.563879 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:36.571298 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:36.571338 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53245: Flags [.], ack 10924, win 501, length 0
+21:30:36.775573 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [S], seq 3818228482, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:36.775672 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [S.], seq 3228183159, ack 3818228483, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:36.795877 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:36.801582 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:36.801666 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 1461, win 501, length 0
+21:30:36.801975 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:36.802016 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:36.802081 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 2921, win 494, length 0
+21:30:36.802140 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:36.802509 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:36.802550 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 4381, win 501, length 0
+21:30:36.802822 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:36.802845 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 5841, win 501, length 0
+21:30:36.802945 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:36.802966 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 7301, win 501, length 0
+21:30:36.803873 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:36.803908 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 8761, win 501, length 0
+21:30:36.804689 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:36.804740 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 10923, win 495, length 0
+21:30:36.839899 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:36.839969 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:36.839993 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53246: Flags [.], ack 10924, win 501, length 0
+21:30:36.994270 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [S], seq 1776888371, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:36.994400 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [S.], seq 1007365083, ack 1776888372, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:37.010064 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:37.016059 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [.], seq 1:2921, ack 1, win 513, length 2920: HTTP
+21:30:37.016145 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [.], ack 2921, win 495, length 0
+21:30:37.016485 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [.], seq 2921:5841, ack 1, win 513, length 2920: HTTP
+21:30:37.016521 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [P.], seq 1:484, ack 2921, win 495, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:37.016563 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [.], ack 5841, win 478, length 0
+21:30:37.016657 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [F.], seq 484, ack 5841, win 495, length 0
+21:30:37.016948 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [.], seq 5841:8761, ack 1, win 513, length 2920: HTTP
+21:30:37.016990 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [.], ack 8761, win 495, length 0
+21:30:37.017508 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:37.017558 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [.], ack 10923, win 495, length 0
+21:30:37.037921 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:37.043723 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:37.043765 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53247: Flags [.], ack 10924, win 501, length 0
+21:30:37.260639 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [S], seq 3902081847, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:37.260765 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [S.], seq 1247965532, ack 3902081848, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:37.265939 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [S], seq 416976571, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:37.266009 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [S.], seq 2505523923, ack 416976572, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:37.301281 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:37.301350 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:37.301362 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:37.301416 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [.], ack 1461, win 501, length 0
+21:30:37.301671 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:37.301701 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [.], ack 2921, win 501, length 0
+21:30:37.301799 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:37.301831 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:37.302218 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [.], seq 2921:5841, ack 1, win 513, length 2920: HTTP
+21:30:37.302290 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [.], ack 5841, win 495, length 0
+21:30:37.302346 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [.], seq 5841:8761, ack 1, win 513, length 2920: HTTP
+21:30:37.302376 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [.], ack 8761, win 479, length 0
+21:30:37.302661 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:37.302711 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [.], ack 10221, win 501, length 0
+21:30:37.302789 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:37.302817 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [.], ack 10923, win 496, length 0
+21:30:37.302844 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:37.302887 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [.], ack 1461, win 501, length 0
+21:30:37.303182 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:37.303261 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:30:37.304081 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [.], seq 2921:5841, ack 1, win 513, length 2920: HTTP
+21:30:37.304125 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [.], ack 1461, win 501, options [nop,nop,sack 1 {2921:5841}], length 0
+21:30:37.304159 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:37.304159 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:37.304204 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [.], ack 5841, win 489, length 0
+21:30:37.304239 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [.], ack 7301, win 481, length 0
+21:30:37.304679 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:37.304728 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [.], ack 8761, win 501, length 0
+21:30:37.305166 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:30:37.305211 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [.], ack 10923, win 495, length 0
+21:30:37.322954 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:37.323008 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:37.323061 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:37.323090 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53249: Flags [.], ack 10924, win 501, length 0
+21:30:37.327169 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:37.327211 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53248: Flags [.], ack 10924, win 501, length 0
+21:30:37.580871 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [S], seq 2054852465, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:37.580990 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [S.], seq 4094591529, ack 2054852466, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:37.609697 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:37.614814 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:37.614914 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 1461, win 501, length 0
+21:30:37.615079 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:37.615112 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 2921, win 495, length 0
+21:30:37.615328 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:37.615369 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:37.616777 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [.], seq 2921:7301, ack 1, win 513, length 4380: HTTP
+21:30:37.616820 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 7301, win 487, length 0
+21:30:37.617507 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:37.617560 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 8761, win 501, length 0
+21:30:37.617910 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:37.617955 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 10221, win 501, length 0
+21:30:37.618779 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:37.618820 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 10923, win 501, length 0
+21:30:37.635183 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:37.640371 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:37.640415 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 10924, win 501, length 0
+21:30:37.718190 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:30:37.718272 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53250: Flags [.], ack 10924, win 501, length 0
+21:30:37.818228 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [S], seq 1342209115, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:37.818365 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [S.], seq 730298392, ack 1342209116, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:37.839276 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:37.840083 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], seq 1:2921, ack 1, win 513, length 2920: HTTP
+21:30:37.840153 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 2921, win 495, length 0
+21:30:37.840412 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:37.840470 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:37.844839 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:37.844909 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 4381, win 501, length 0
+21:30:37.846064 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:30:37.846128 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 5841, win 501, length 0
+21:30:37.846190 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:30:37.846209 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 7301, win 495, length 0
+21:30:37.846805 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:30:37.846835 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 8761, win 501, length 0
+21:30:37.846981 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:37.847004 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 10221, win 501, length 0
+21:30:37.847121 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:37.847145 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 10923, win 501, length 0
+21:30:37.857262 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:37.863638 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:37.863682 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 10924, win 501, length 0
+21:30:37.911442 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:30:37.911524 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53251: Flags [.], ack 10924, win 501, length 0
+21:30:38.068705 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [S], seq 2163645227, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:30:38.068805 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [S.], seq 78256160, ack 2163645228, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:30:38.090709 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:30:38.112032 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:30:38.112139 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [.], ack 1461, win 501, length 0
+21:30:38.112282 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:30:38.112311 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [.], ack 2921, win 495, length 0
+21:30:38.112470 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:30:38.112519 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:30:38.112793 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:30:38.112821 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [.], ack 4381, win 501, length 0
+21:30:38.113343 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [.], seq 4381:8761, ack 1, win 513, length 4380: HTTP
+21:30:38.113419 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [.], ack 8761, win 491, length 0
+21:30:38.113519 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:30:38.113539 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [.], ack 10221, win 483, length 0
+21:30:38.114136 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:30:38.114171 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [.], ack 10923, win 501, length 0
+21:30:38.129505 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:30:38.136088 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:30:38.136123 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53252: Flags [.], ack 10924, win 501, length 0
+21:30:42.731249 IP 185.236.11.150.49341 > 143.110.223.72.15681: Flags [S], seq 885640504, win 1024, length 0
+21:30:44.654331 IP 185.141.170.43.59694 > 143.110.223.72.ssh: Flags [S], seq 3554767804, win 29200, options [mss 1460,sackOK,TS val 117524603 ecr 0,nop,wscale 7], length 0
+21:30:44.654437 IP 143.110.223.72.ssh > 185.141.170.43.59694: Flags [S.], seq 505968425, ack 3554767805, win 65160, options [mss 1460,sackOK,TS val 937463565 ecr 117524603,nop,wscale 7], length 0
+21:30:44.953875 IP 185.141.170.43.59694 > 143.110.223.72.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 117524678 ecr 937463565], length 0
+21:30:44.953982 IP 185.141.170.43.59694 > 143.110.223.72.ssh: Flags [P.], seq 1:24, ack 1, win 229, options [nop,nop,TS val 117524678 ecr 937463565], length 23
+21:30:44.954010 IP 143.110.223.72.ssh > 185.141.170.43.59694: Flags [.], ack 24, win 509, options [nop,nop,TS val 937463864 ecr 117524678], length 0
+21:30:44.976560 IP 143.110.223.72.ssh > 185.141.170.43.59694: Flags [P.], seq 1:42, ack 24, win 509, options [nop,nop,TS val 937463887 ecr 117524678], length 41
+21:30:45.277412 IP 185.141.170.43.59694 > 143.110.223.72.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 117524759 ecr 937463887], length 0
+21:30:45.277514 IP 143.110.223.72.ssh > 185.141.170.43.59694: Flags [P.], seq 42:1098, ack 24, win 509, options [nop,nop,TS val 937464188 ecr 117524759], length 1056
+21:30:45.277566 IP 185.141.170.43.59694 > 143.110.223.72.ssh: Flags [P.], seq 24:672, ack 42, win 229, options [nop,nop,TS val 117524759 ecr 937463887], length 648
+21:30:45.277629 IP 143.110.223.72.ssh > 185.141.170.43.59694: Flags [.], ack 672, win 504, options [nop,nop,TS val 937464188 ecr 117524759], length 0
+21:30:45.281391 IP 143.110.223.72.ssh > 185.141.170.43.59694: Flags [F.], seq 1098, ack 672, win 504, options [nop,nop,TS val 937464192 ecr 117524759], length 0
+21:30:45.574277 IP 185.141.170.43.59694 > 143.110.223.72.ssh: Flags [F.], seq 672, ack 1098, win 245, options [nop,nop,TS val 117524833 ecr 937464188], length 0
+21:30:45.574369 IP 143.110.223.72.ssh > 185.141.170.43.59694: Flags [.], ack 673, win 504, options [nop,nop,TS val 937464485 ecr 117524833], length 0
+21:30:45.577912 IP 185.141.170.43.59694 > 143.110.223.72.ssh: Flags [.], ack 1099, win 245, options [nop,nop,TS val 117524834 ecr 937464192], length 0
+21:30:47.983416 IP 194.147.140.82.48971 > 143.110.223.72.5197: Flags [S], seq 2165410768, win 1024, length 0
+21:30:58.653314 IP scanner.openportstats.com.52359 > 143.110.223.72.40044: Flags [S], seq 2161669837, win 1024, length 0
+21:30:59.538681 IP 195.54.160.155.53785 > 143.110.223.72.4778: Flags [S], seq 304702042, win 1024, length 0
+21:31:02.116846 IP 194.147.140.81.49190 > 143.110.223.72.10806: Flags [S], seq 2460461868, win 1024, length 0
+21:31:04.811732 IP 185.236.11.150.49341 > 143.110.223.72.15842: Flags [S], seq 4039174551, win 1024, length 0
+21:31:06.588691 IP 79.124.62.74.http-alt > 143.110.223.72.25522: Flags [S], seq 3216108366, win 1024, length 0
+21:31:11.924801 IP 194.147.140.82.48971 > 143.110.223.72.5207: Flags [S], seq 386299960, win 1024, length 0
+21:31:18.308055 IP aes-static-026.206.144.59.airtel.in.36884 > 143.110.223.72.microsoft-ds: Flags [S], seq 107081391, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+21:31:27.794258 IP 185.236.11.34.49689 > 143.110.223.72.25556: Flags [S], seq 1264798341, win 1024, length 0
+21:31:30.696261 IP 194.147.140.88.48772 > 143.110.223.72.458: Flags [S], seq 1519343428, win 1024, length 0
+21:31:33.698886 IP 94.41.0.234.static.ufanet.ru.61142 > 143.110.223.72.microsoft-ds: Flags [S], seq 4129533305, win 8192, options [mss 1460,nop,wscale 2,nop,nop,sackOK], length 0
+21:31:54.306499 IP 185.236.11.34.49689 > 143.110.223.72.25594: Flags [S], seq 2019892948, win 1024, length 0
+21:32:07.275841 IP 185.156.73.12.58223 > 143.110.223.72.33260: Flags [S], seq 2503239717, win 1024, length 0
+21:32:37.819687 IP scanner-01.ch1.censys-scanner.com.45117 > 143.110.223.72.2: Flags [S], seq 1752919224, win 1024, options [mss 1460], length 0
+21:32:41.563864 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.52241 > 143.110.223.72.80: UDP, bad length 10922 > 1472
+21:32:41.569177 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:41.569261 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:41.569467 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:41.569477 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:41.570474 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:41.571634 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:41.571686 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.276468 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.52241 > 143.110.223.72.80: UDP, bad length 10922 > 1472
+21:32:42.279727 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.280283 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.281157 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.282009 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.282023 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.282329 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.282344 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.443504 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.52241 > 143.110.223.72.80: UDP, bad length 10922 > 1472
+21:32:42.443551 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.443557 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.444021 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.444043 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.444587 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.444603 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.445680 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.593182 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.52241 > 143.110.223.72.80: UDP, bad length 10922 > 1472
+21:32:42.597458 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.599760 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.600741 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.600818 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.601187 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.602232 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.603416 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.755925 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.52241 > 143.110.223.72.80: UDP, bad length 10922 > 1472
+21:32:42.757172 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.757699 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.758848 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.758865 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.760280 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.760361 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.760372 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.917970 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.52241 > 143.110.223.72.80: UDP, bad length 10922 > 1472
+21:32:42.921171 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.925315 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.925337 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.925343 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.927365 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.927412 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:42.927420 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com > 143.110.223.72: udp
+21:32:47.285928 IP dojo.census.shodan.io.1245 > 143.110.223.72.50000: Flags [S], seq 1429845424, win 39329, options [mss 1460], length 0
+21:32:47.582055 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254 > 143.110.223.72.http: Flags [S], seq 3508861493, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:32:47.582161 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254: Flags [S.], seq 505648051, ack 3508861494, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:32:47.607124 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254 > 143.110.223.72.http: Flags [P.], seq 1:518, ack 1, win 513, length 517: HTTP
+21:32:47.607245 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254: Flags [.], ack 518, win 501, length 0
+21:32:47.607581 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254: Flags [P.], seq 1:484, ack 518, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:32:47.607648 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254: Flags [F.], seq 484, ack 518, win 501, length 0
+21:32:47.618967 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:32:47.625117 IP 194.147.140.81.49190 > 143.110.223.72.10881: Flags [S], seq 2321688130, win 1024, length 0
+21:32:47.758731 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255 > 143.110.223.72.http: Flags [S], seq 101584944, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:32:47.758840 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255: Flags [S.], seq 1364430776, ack 101584945, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:32:47.778689 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255 > 143.110.223.72.http: Flags [P.], seq 1:518, ack 1, win 513, length 517: HTTP
+21:32:47.778794 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255: Flags [.], ack 518, win 501, length 0
+21:32:47.779110 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255: Flags [P.], seq 1:484, ack 518, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:32:47.779151 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255: Flags [F.], seq 484, ack 518, win 501, length 0
+21:32:47.789554 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:32:47.790667 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:32:47.790730 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254: Flags [.], ack 518, win 501, length 0
+21:32:47.815745 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254 > 143.110.223.72.http: Flags [F.], seq 518, ack 485, win 511, length 0
+21:32:47.815795 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53254: Flags [.], ack 519, win 501, length 0
+21:32:47.932866 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256 > 143.110.223.72.http: Flags [S], seq 3480553059, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:32:47.932967 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256: Flags [S.], seq 4207283187, ack 3480553060, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:32:47.965449 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:32:47.965572 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255: Flags [.], ack 518, win 501, length 0
+21:32:47.983190 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255 > 143.110.223.72.http: Flags [F.], seq 518, ack 485, win 511, length 0
+21:32:47.983288 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53255: Flags [.], ack 519, win 501, length 0
+21:32:48.139105 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257 > 143.110.223.72.http: Flags [S], seq 949048470, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:32:48.139205 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257: Flags [S.], seq 408585470, ack 949048471, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:32:48.152058 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:32:48.153949 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256 > 143.110.223.72.http: Flags [P.], seq 1:518, ack 1, win 513, length 517: HTTP
+21:32:48.154022 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256: Flags [.], ack 518, win 501, length 0
+21:32:48.154299 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256: Flags [P.], seq 1:484, ack 518, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:32:48.154346 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256: Flags [F.], seq 484, ack 518, win 501, length 0
+21:32:48.246804 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258 > 143.110.223.72.http: Flags [S], seq 932064019, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:32:48.246906 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258: Flags [S.], seq 2243165656, ack 932064020, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:32:48.367122 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:32:48.369076 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257 > 143.110.223.72.http: Flags [P.], seq 1:518, ack 1, win 513, length 517: HTTP
+21:32:48.369181 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257: Flags [.], ack 518, win 501, length 0
+21:32:48.369498 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257: Flags [P.], seq 1:484, ack 518, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:32:48.369547 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257: Flags [F.], seq 484, ack 518, win 501, length 0
+21:32:48.384063 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259 > 143.110.223.72.http: Flags [S], seq 2967742408, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:32:48.384155 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259: Flags [S.], seq 2279410913, ack 2967742409, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:32:48.384185 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256 > 143.110.223.72.http: Flags [F.], seq 518, ack 484, win 511, length 0
+21:32:48.384213 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256: Flags [.], ack 519, win 501, length 0
+21:32:48.386344 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:32:48.387260 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53256 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:32:48.495673 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:32:48.495844 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258 > 143.110.223.72.http: Flags [P.], seq 1:518, ack 1, win 513, length 517: HTTP
+21:32:48.495933 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258: Flags [.], ack 518, win 501, length 0
+21:32:48.496260 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258: Flags [P.], seq 1:484, ack 518, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:32:48.496322 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258: Flags [F.], seq 484, ack 518, win 501, length 0
+21:32:48.511197 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:32:48.626922 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257 > 143.110.223.72.http: Flags [F.], seq 518, ack 485, win 511, length 0
+21:32:48.627007 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53257: Flags [.], ack 519, win 501, length 0
+21:32:48.639710 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:32:48.640467 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259 > 143.110.223.72.http: Flags [P.], seq 1:518, ack 1, win 513, length 517: HTTP
+21:32:48.640522 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259: Flags [.], ack 518, win 501, length 0
+21:32:48.640759 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259: Flags [P.], seq 1:484, ack 518, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:32:48.640800 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259: Flags [F.], seq 484, ack 518, win 501, length 0
+21:32:48.653291 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:32:48.735868 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258 > 143.110.223.72.http: Flags [F.], seq 518, ack 485, win 511, length 0
+21:32:48.735959 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53258: Flags [.], ack 519, win 501, length 0
+21:32:48.893483 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259 > 143.110.223.72.http: Flags [F.], seq 518, ack 485, win 511, length 0
+21:32:48.893567 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53259: Flags [.], ack 519, win 501, length 0
+21:32:57.617037 IP scanner-13.ch1.censys-scanner.com.11418 > 143.110.223.72.9909: Flags [S], seq 2589605814, win 1024, options [mss 1460], length 0
+21:33:01.923038 IP 194.147.140.88.48772 > 143.110.223.72.92: Flags [S], seq 192349151, win 1024, length 0
+21:33:04.259926 IP 185.236.11.150.49341 > 143.110.223.72.15634: Flags [S], seq 1918886696, win 1024, length 0
+21:33:17.453104 IP 185.236.11.34.49689 > 143.110.223.72.25535: Flags [S], seq 4198402231, win 1024, length 0
+21:33:19.999243 IP 185.141.170.43.33618 > 143.110.223.72.ssh: Flags [S], seq 2369861341, win 29200, options [mss 1460,sackOK,TS val 117563438 ecr 0,nop,wscale 7], length 0
+21:33:19.999354 IP 143.110.223.72.ssh > 185.141.170.43.33618: Flags [S.], seq 2226092055, ack 2369861342, win 65160, options [mss 1460,sackOK,TS val 937618910 ecr 117563438,nop,wscale 7], length 0
+21:33:20.261611 IP 185.141.170.43.33618 > 143.110.223.72.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 117563504 ecr 937618910], length 0
+21:33:20.261740 IP 185.141.170.43.33618 > 143.110.223.72.ssh: Flags [P.], seq 1:24, ack 1, win 229, options [nop,nop,TS val 117563504 ecr 937618910], length 23
+21:33:20.261783 IP 143.110.223.72.ssh > 185.141.170.43.33618: Flags [.], ack 24, win 509, options [nop,nop,TS val 937619172 ecr 117563504], length 0
+21:33:20.283948 IP 143.110.223.72.ssh > 185.141.170.43.33618: Flags [P.], seq 1:42, ack 24, win 509, options [nop,nop,TS val 937619194 ecr 117563504], length 41
+21:33:20.548101 IP 185.141.170.43.33618 > 143.110.223.72.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 117563575 ecr 937619194], length 0
+21:33:20.548193 IP 143.110.223.72.ssh > 185.141.170.43.33618: Flags [P.], seq 42:1098, ack 24, win 509, options [nop,nop,TS val 937619459 ecr 117563575], length 1056
+21:33:20.548226 IP 185.141.170.43.33618 > 143.110.223.72.ssh: Flags [P.], seq 24:672, ack 42, win 229, options [nop,nop,TS val 117563575 ecr 937619194], length 648
+21:33:20.548259 IP 143.110.223.72.ssh > 185.141.170.43.33618: Flags [.], ack 672, win 504, options [nop,nop,TS val 937619459 ecr 117563575], length 0
+21:33:20.551396 IP 143.110.223.72.ssh > 185.141.170.43.33618: Flags [F.], seq 1098, ack 672, win 504, options [nop,nop,TS val 937619462 ecr 117563575], length 0
+21:33:20.807124 IP 185.141.170.43.33618 > 143.110.223.72.ssh: Flags [F.], seq 672, ack 1098, win 245, options [nop,nop,TS val 117563640 ecr 937619194], length 0
+21:33:20.807248 IP 143.110.223.72.ssh > 185.141.170.43.33618: Flags [.], ack 673, win 504, options [nop,nop,TS val 937619718 ecr 117563640], length 0
+21:33:20.810702 IP 185.141.170.43.33618 > 143.110.223.72.ssh: Flags [.], ack 1099, win 245, options [nop,nop,TS val 117563641 ecr 937619462], length 0
+21:33:22.768647 IP 185.236.11.150.49341 > 143.110.223.72.15713: Flags [S], seq 1170619073, win 1024, length 0
+21:33:25.410490 IP 185.236.11.150.49341 > 143.110.223.72.15598: Flags [S], seq 3897427336, win 1024, length 0
+21:33:26.204917 IP 185.236.11.34.49689 > 143.110.223.72.25418: Flags [S], seq 1089055246, win 1024, length 0
+21:33:30.398954 IP 185.236.11.200.49516 > 143.110.223.72.20643: Flags [S], seq 2251698389, win 1024, length 0
+21:33:35.095188 IP 185.236.11.150.49341 > 143.110.223.72.15657: Flags [S], seq 3660364264, win 1024, length 0
+21:33:43.941184 IP 185.236.11.150.49341 > 143.110.223.72.15856: Flags [S], seq 315176600, win 1024, length 0
+21:33:45.717846 IP 185.236.11.150.49341 > 143.110.223.72.15743: Flags [S], seq 280510343, win 1024, length 0
+21:33:46.328280 IP 185.236.11.34.49689 > 143.110.223.72.25727: Flags [S], seq 1065058862, win 1024, length 0
+21:33:58.550927 IP 185.236.11.150.49341 > 143.110.223.72.15550: Flags [S], seq 3048207550, win 1024, length 0
+21:34:08.163599 IP 185.236.11.200.49516 > 143.110.223.72.20787: Flags [S], seq 335617973, win 1024, length 0
+21:34:10.158389 IP 45.146.165.153.59783 > 143.110.223.72.6682: Flags [S], seq 3698969206, win 1024, length 0
+21:34:12.943490 IP 194.147.140.104.46094 > 143.110.223.72.8113: Flags [S], seq 709306703, win 1024, length 0
+21:34:17.671489 IP 194.147.140.88.48772 > 143.110.223.72.418: Flags [S], seq 3855099526, win 1024, length 0
+21:34:22.664952 IP 194.147.140.88.48772 > 143.110.223.72.152: Flags [S], seq 2908361198, win 1024, length 0
+21:34:30.587939 IP scanner-11.ch1.censys-scanner.com.19207 > 143.110.223.72.9358: Flags [S], seq 1755950453, win 1024, options [mss 1460], length 0
+21:34:31.718579 IP 194.147.140.88.48772 > 143.110.223.72.kerberos: Flags [S], seq 766480273, win 1024, length 0
+21:34:51.543677 IP 144.52.230.195.ntp > 143.110.223.72.ntp: NTPv3, Server, length 4
+21:34:52.686039 IP 194.147.140.82.48971 > 143.110.223.72.5487: Flags [S], seq 679945055, win 1024, length 0
+21:34:56.061102 IP 203.81.243.120.45538 > 143.110.223.72.microsoft-ds: Flags [S], seq 4223455220, win 8192, options [mss 1452,nop,wscale 8,nop,nop,sackOK], length 0
+21:35:01.263359 IP 185.236.11.200.49516 > 143.110.223.72.20831: Flags [S], seq 3622743349, win 1024, length 0
+21:35:03.941328 IP scanner-01.ch1.censys-scanner.com.25732 > 143.110.223.72.5938: Flags [S], seq 282489323, win 1024, options [mss 1460], length 0
+21:35:06.977425 IP zg-0226b-258.stretchoid.com.53726 > 143.110.223.72.9529: Flags [S], seq 1494717092, win 65535, length 0
+21:35:09.671774 IP 185.236.11.150.49341 > 143.110.223.72.15653: Flags [S], seq 3807821127, win 1024, length 0
+21:35:12.541099 IP 194.147.140.82.48971 > 143.110.223.72.5238: Flags [S], seq 3588146737, win 1024, length 0
+21:35:13.319307 IP 185.236.11.150.49341 > 143.110.223.72.15759: Flags [S], seq 3729758737, win 1024, length 0
+21:35:13.537232 IP 185.236.11.34.49689 > 143.110.223.72.25746: Flags [S], seq 1825129179, win 1024, length 0
+21:35:22.552964 IP 194.147.140.88.48772 > 143.110.223.72.33: Flags [S], seq 2520434194, win 1024, length 0
+21:35:25.679569 IP 185.236.11.200.49516 > 143.110.223.72.20723: Flags [S], seq 3309901870, win 1024, length 0
+21:35:25.902319 IP 185.236.11.34.49689 > 143.110.223.72.25368: Flags [S], seq 3244456576, win 1024, length 0
+21:35:30.443385 IP 185.236.11.34.49689 > 143.110.223.72.25721: Flags [S], seq 2122929998, win 1024, length 0
+21:35:39.939741 IP 194.147.140.88.48772 > 143.110.223.72.332: Flags [S], seq 534433614, win 1024, length 0
+21:35:43.323050 IP 45.146.164.229.42999 > 143.110.223.72.841: Flags [S], seq 2056671471, win 1024, length 0
+21:35:44.493420 IP 194.147.140.81.49190 > 143.110.223.72.10866: Flags [S], seq 3129797915, win 1024, length 0
+21:35:47.434240 IP 185.236.11.200.49516 > 143.110.223.72.20608: Flags [S], seq 1873861611, win 1024, length 0
+21:35:47.655954 IP 45.146.164.229.42999 > 143.110.223.72.743: Flags [S], seq 3689143939, win 1024, length 0
+21:35:50.697343 IP worker-10.sfj.censys-scanner.com.36426 > 143.110.223.72.5632: UDP, length 2
+21:35:54.129598 IP 185.141.170.43.35774 > 143.110.223.72.ssh: Flags [S], seq 3143922812, win 29200, options [mss 1460,sackOK,TS val 117601969 ecr 0,nop,wscale 7], length 0
+21:35:54.129701 IP 143.110.223.72.ssh > 185.141.170.43.35774: Flags [S.], seq 3380283905, ack 3143922813, win 65160, options [mss 1460,sackOK,TS val 937773040 ecr 117601969,nop,wscale 7], length 0
+21:35:54.382797 IP 185.141.170.43.35774 > 143.110.223.72.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 117602033 ecr 937773040], length 0
+21:35:54.382920 IP 185.141.170.43.35774 > 143.110.223.72.ssh: Flags [P.], seq 1:24, ack 1, win 229, options [nop,nop,TS val 117602033 ecr 937773040], length 23
+21:35:54.382950 IP 143.110.223.72.ssh > 185.141.170.43.35774: Flags [.], ack 24, win 509, options [nop,nop,TS val 937773293 ecr 117602033], length 0
+21:35:54.404604 IP 143.110.223.72.ssh > 185.141.170.43.35774: Flags [P.], seq 1:42, ack 24, win 509, options [nop,nop,TS val 937773315 ecr 117602033], length 41
+21:35:54.656746 IP 185.141.170.43.35774 > 143.110.223.72.ssh: Flags [.], ack 42, win 229, options [nop,nop,TS val 117602101 ecr 937773315], length 0
+21:35:54.656846 IP 143.110.223.72.ssh > 185.141.170.43.35774: Flags [P.], seq 42:1098, ack 24, win 509, options [nop,nop,TS val 937773567 ecr 117602101], length 1056
+21:35:54.656875 IP 185.141.170.43.35774 > 143.110.223.72.ssh: Flags [P.], seq 24:672, ack 42, win 229, options [nop,nop,TS val 117602101 ecr 937773315], length 648
+21:35:54.656905 IP 143.110.223.72.ssh > 185.141.170.43.35774: Flags [.], ack 672, win 504, options [nop,nop,TS val 937773567 ecr 117602101], length 0
+21:35:54.662094 IP 143.110.223.72.ssh > 185.141.170.43.35774: Flags [F.], seq 1098, ack 672, win 504, options [nop,nop,TS val 937773572 ecr 117602101], length 0
+21:35:54.910698 IP 185.141.170.43.35774 > 143.110.223.72.ssh: Flags [F.], seq 672, ack 1098, win 245, options [nop,nop,TS val 117602165 ecr 937773315], length 0
+21:35:54.910817 IP 143.110.223.72.ssh > 185.141.170.43.35774: Flags [.], ack 673, win 504, options [nop,nop,TS val 937773821 ecr 117602165], length 0
+21:35:54.915630 IP 185.141.170.43.35774 > 143.110.223.72.ssh: Flags [.], ack 1099, win 245, options [nop,nop,TS val 117602166 ecr 937773572], length 0
+21:35:58.363957 IP 194.147.140.82.48971 > 143.110.223.72.5611: Flags [S], seq 2208695047, win 1024, length 0
+21:36:00.175763 IP 185.236.11.200.49516 > 143.110.223.72.20829: Flags [S], seq 2257705335, win 1024, length 0
+21:36:07.345041 IP 185.236.11.200.49516 > 143.110.223.72.20884: Flags [S], seq 536022611, win 1024, length 0
+21:36:07.927083 IP zg-0226a-158.stretchoid.com.40250 > 143.110.223.72.nfs: Flags [S], seq 2289257724, win 65535, length 0
+21:36:09.426547 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [S], seq 1278483424, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:09.426652 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [S.], seq 459376925, ack 1278483425, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:09.440534 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:09.486888 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:09.487006 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [.], ack 1461, win 501, length 0
+21:36:09.487351 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:09.487398 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:36:09.487656 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:36:09.487692 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [.], ack 4381, win 495, length 0
+21:36:09.488080 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:09.488124 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [.], ack 5841, win 501, length 0
+21:36:09.488166 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:09.488186 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [.], ack 7301, win 495, length 0
+21:36:09.488554 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:09.488619 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [.], ack 8761, win 501, length 0
+21:36:09.488663 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:36:09.488679 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [.], ack 10923, win 485, length 0
+21:36:09.498195 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:09.501766 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:09.501798 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53370: Flags [.], ack 10924, win 501, length 0
+21:36:10.154478 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [S], seq 3215455353, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:10.154576 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [S.], seq 1482649477, ack 3215455354, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:10.170610 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:10.203003 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:10.203133 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 1461, win 501, length 0
+21:36:10.203497 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:10.203578 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:36:10.203599 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:36:10.203633 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 2921, win 494, length 0
+21:36:10.204795 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:36:10.204839 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 4381, win 501, length 0
+21:36:10.204977 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:10.205007 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 5841, win 501, length 0
+21:36:10.206101 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:10.206189 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 7301, win 501, length 0
+21:36:10.206372 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:10.206404 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 8761, win 501, length 0
+21:36:10.207405 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:36:10.207447 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 10221, win 501, length 0
+21:36:10.210732 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:36:10.210776 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 10923, win 501, length 0
+21:36:10.216864 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:10.219071 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:10.219154 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53371: Flags [.], ack 10924, win 501, length 0
+21:36:10.423581 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [S], seq 1537368722, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:10.423691 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [S.], seq 3882778699, ack 1537368723, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:10.444244 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:10.445305 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:10.445375 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 1461, win 501, length 0
+21:36:10.445645 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:36:10.445677 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 4381, win 495, length 0
+21:36:10.445736 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [P.], seq 1:484, ack 4381, win 495, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:10.445778 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [F.], seq 484, ack 4381, win 495, length 0
+21:36:10.445947 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:10.445980 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 5841, win 501, length 0
+21:36:10.447420 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:10.447509 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 7301, win 501, length 0
+21:36:10.447549 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:10.447569 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 8761, win 495, length 0
+21:36:10.449037 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:36:10.449090 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 10923, win 495, length 0
+21:36:10.456251 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:10.457902 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:10.457947 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 10924, win 501, length 0
+21:36:10.486717 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:36:10.486792 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53372: Flags [.], ack 10924, win 501, length 0
+21:36:10.682169 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [S], seq 3806363968, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:10.682277 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [S.], seq 519390828, ack 3806363969, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:10.691852 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:10.718494 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:10.718615 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 1461, win 501, length 0
+21:36:10.718707 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:36:10.718741 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 2921, win 495, length 0
+21:36:10.719072 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:10.719164 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:36:10.719577 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:36:10.719626 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 4381, win 501, length 0
+21:36:10.720179 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:10.720244 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 5841, win 501, length 0
+21:36:10.720274 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:10.720300 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 7301, win 495, length 0
+21:36:10.721331 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:10.721369 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 8761, win 501, length 0
+21:36:10.725218 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:36:10.725265 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 10923, win 495, length 0
+21:36:10.735686 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:10.739322 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:10.739367 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 10924, win 501, length 0
+21:36:10.762635 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:36:10.762692 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53373: Flags [.], ack 10924, win 501, length 0
+21:36:10.910812 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [S], seq 2123225620, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:10.910913 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [S.], seq 2949645084, ack 2123225621, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:10.922083 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:10.928671 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:10.928824 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 1461, win 501, length 0
+21:36:10.929095 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:10.929139 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:36:10.929482 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:36:10.929516 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 2921, win 501, length 0
+21:36:10.929915 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:36:10.929955 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 4381, win 501, length 0
+21:36:10.931289 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], seq 4381:7301, ack 1, win 513, length 2920: HTTP
+21:36:10.931339 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 7301, win 497, length 0
+21:36:10.931366 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:10.931384 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 8761, win 489, length 0
+21:36:10.932262 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:36:10.932308 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 10221, win 501, length 0
+21:36:10.932405 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:36:10.932430 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 10923, win 501, length 0
+21:36:10.940195 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:10.941714 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:10.941746 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 10924, win 501, length 0
+21:36:10.974695 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:36:10.974757 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53374: Flags [.], ack 10924, win 501, length 0
+21:36:11.146023 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [S], seq 2541307570, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:11.146124 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [S.], seq 1339941159, ack 2541307571, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:11.161624 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:11.163949 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:11.164014 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [.], ack 1461, win 501, length 0
+21:36:11.164122 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:36:11.164148 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [.], ack 2921, win 495, length 0
+21:36:11.164349 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [P.], seq 1:484, ack 2921, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:11.164386 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [F.], seq 484, ack 2921, win 501, length 0
+21:36:11.165452 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:36:11.165494 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [.], ack 4381, win 501, length 0
+21:36:11.165609 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [.], seq 4381:7301, ack 1, win 513, length 2920: HTTP
+21:36:11.165636 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [.], ack 7301, win 495, length 0
+21:36:11.167063 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [P.], seq 7301:10923, ack 1, win 513, length 3622: HTTP
+21:36:11.167150 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [.], ack 10923, win 489, length 0
+21:36:11.181275 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:11.188218 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:11.188253 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53375: Flags [.], ack 10924, win 501, length 0
+21:36:14.071398 IP 178.128.4.34.43410 > 143.110.223.72.2701: Flags [S], seq 3775907873, win 1024, length 0
+21:36:15.092704 IP 194.147.140.88.48772 > 143.110.223.72.477: Flags [S], seq 2586621957, win 1024, length 0
+21:36:17.739221 IP 194.147.140.82.48971 > 143.110.223.72.5306: Flags [S], seq 3391098418, win 1024, length 0
+21:36:17.765851 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [S], seq 2730078372, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:17.765951 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [S.], seq 3723753148, ack 2730078373, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:17.780785 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:17.786941 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:17.787037 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 1461, win 501, length 0
+21:36:17.787408 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:17.787464 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:36:17.787504 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:36:17.787536 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 2921, win 494, length 0
+21:36:17.788176 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:36:17.788224 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 4381, win 501, length 0
+21:36:17.788512 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:17.788553 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 5841, win 501, length 0
+21:36:17.788838 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:17.788877 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 7301, win 501, length 0
+21:36:17.789153 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:17.789191 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 8761, win 501, length 0
+21:36:17.789521 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [P.], seq 8761:10923, ack 1, win 513, length 2162: HTTP
+21:36:17.789562 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 10923, win 497, length 0
+21:36:17.800325 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:17.805887 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:17.805933 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53376: Flags [.], ack 10924, win 501, length 0
+21:36:18.030851 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [S], seq 509050829, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:18.030953 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [S.], seq 510911611, ack 509050830, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:18.041474 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:18.066689 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:18.066793 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 1461, win 501, length 0
+21:36:18.067057 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:18.067175 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:36:18.071662 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], seq 2921:5841, ack 1, win 513, length 2920: HTTP
+21:36:18.071718 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 1461, win 501, options [nop,nop,sack 1 {2921:5841}], length 0
+21:36:18.071739 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:36:18.071739 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:18.071781 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 5841, win 489, length 0
+21:36:18.071804 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 7301, win 481, length 0
+21:36:18.072417 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:18.072452 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 8761, win 501, length 0
+21:36:18.072779 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:36:18.072851 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 10221, win 501, length 0
+21:36:18.072915 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:36:18.072937 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 10923, win 496, length 0
+21:36:18.077051 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:18.078832 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:18.078865 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 10924, win 501, length 0
+21:36:18.116587 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:36:18.116665 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53377: Flags [.], ack 10924, win 501, length 0
+21:36:18.522118 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [S], seq 962960304, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:18.522229 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [S.], seq 898485675, ack 962960305, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:18.541577 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:18.542208 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:18.542292 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 1461, win 501, length 0
+21:36:18.542571 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:18.542613 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:36:18.542889 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], seq 1461:4381, ack 1, win 513, length 2920: HTTP
+21:36:18.542934 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 4381, win 495, length 0
+21:36:18.542987 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:18.543004 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 5841, win 487, length 0
+21:36:18.544129 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:18.544183 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 7301, win 501, length 0
+21:36:18.545694 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:18.545737 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 8761, win 501, length 0
+21:36:18.545813 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:36:18.545832 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 10221, win 494, length 0
+21:36:18.546471 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:36:18.546518 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 10923, win 501, length 0
+21:36:18.553985 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:18.556365 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:18.556401 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 10924, win 501, length 0
+21:36:18.589452 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378 > 143.110.223.72.http: Flags [FP.], seq 9463:10923, ack 485, win 511, length 1460: HTTP
+21:36:18.589559 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53378: Flags [.], ack 10924, win 501, length 0
+21:36:18.792375 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [S], seq 1388239891, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:18.792480 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [S.], seq 2374168218, ack 1388239892, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:18.811330 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:18.820337 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], seq 1:1461, ack 1, win 513, length 1460: HTTP
+21:36:18.820448 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 1461, win 501, length 0
+21:36:18.820809 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [P.], seq 1:484, ack 1461, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:18.820889 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [F.], seq 484, ack 1461, win 501, length 0
+21:36:18.821185 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], seq 1461:2921, ack 1, win 513, length 1460: HTTP
+21:36:18.821233 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 2921, win 501, length 0
+21:36:18.822351 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:36:18.822407 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 4381, win 501, length 0
+21:36:18.823244 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:18.823301 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 5841, win 501, length 0
+21:36:18.823858 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:18.823900 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 7301, win 501, length 0
+21:36:18.824773 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:18.824828 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 8761, win 501, length 0
+21:36:18.826333 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], seq 8761:10221, ack 1, win 513, length 1460: HTTP
+21:36:18.826389 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 10221, win 501, length 0
+21:36:18.826449 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [P.], seq 10221:10923, ack 1, win 513, length 702: HTTP
+21:36:18.826466 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 10923, win 496, length 0
+21:36:18.831542 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [.], ack 485, win 511, length 0
+21:36:18.833157 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380 > 143.110.223.72.http: Flags [S], seq 2725119261, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+21:36:18.833216 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [S.], seq 3222244514, ack 2725119262, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+21:36:18.834464 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379 > 143.110.223.72.http: Flags [F.], seq 10923, ack 485, win 511, length 0
+21:36:18.834493 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53379: Flags [.], ack 10924, win 501, length 0
+21:36:18.856112 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380 > 143.110.223.72.http: Flags [.], ack 1, win 513, length 0
+21:36:18.861332 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380 > 143.110.223.72.http: Flags [.], seq 1:2921, ack 1, win 513, length 2920: HTTP
+21:36:18.861418 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [.], ack 2921, win 495, length 0
+21:36:18.861477 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380 > 143.110.223.72.http: Flags [.], seq 2921:4381, ack 1, win 513, length 1460: HTTP
+21:36:18.861494 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [.], ack 4381, win 487, length 0
+21:36:18.861580 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380 > 143.110.223.72.http: Flags [.], seq 4381:5841, ack 1, win 513, length 1460: HTTP
+21:36:18.861605 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [.], ack 5841, win 479, length 0
+21:36:18.861809 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [P.], seq 1:484, ack 5841, win 501, length 483: HTTP: HTTP/1.1 400 Bad Request
+21:36:18.861844 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380 > 143.110.223.72.http: Flags [.], seq 5841:7301, ack 1, win 513, length 1460: HTTP
+21:36:18.861864 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [.], ack 7301, win 490, length 0
+21:36:18.861907 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [F.], seq 484, ack 7301, win 501, length 0
+21:36:18.861949 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380 > 143.110.223.72.http: Flags [.], seq 7301:8761, ack 1, win 513, length 1460: HTTP
+21:36:18.861965 IP 143.110.223.72.http > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.53380: Flags [.], ack 8761, win 493, length 0
+tcpdump: pcap_loop: truncated dump file; tried to read 2216 captured bytes, only got 2176
