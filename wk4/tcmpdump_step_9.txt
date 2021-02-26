@@ -1,0 +1,648 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+21:45:30.367581 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 940315919:940316027, ack 3305456775, win 501, length 108
+21:45:30.367726 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 108:144, ack 1, win 501, length 36
+21:45:30.367844 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 144:252, ack 1, win 501, length 108
+21:45:30.367941 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 252:288, ack 1, win 501, length 36
+21:45:30.380298 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 108, win 3088, length 0
+21:45:30.386968 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 288:500, ack 1, win 501, length 212
+21:45:30.387108 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 500:536, ack 1, win 501, length 36
+21:45:30.387314 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 536:724, ack 1, win 501, length 188
+21:45:30.387426 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 724:760, ack 1, win 501, length 36
+21:45:30.387569 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 760:948, ack 1, win 501, length 188
+21:45:30.387677 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 948:984, ack 1, win 501, length 36
+21:45:30.387796 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 984:1172, ack 1, win 501, length 188
+21:45:30.453978 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [.], seq 1172:2632, ack 1, win 501, length 1460
+21:45:30.531614 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 1172, win 3091, length 0
+21:45:30.531726 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 2632:3232, ack 1, win 501, length 600
+21:45:30.531972 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 3232:3412, ack 1, win 501, length 180
+21:45:30.532080 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 3412:3448, ack 1, win 501, length 36
+21:45:30.532203 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 3448:3644, ack 1, win 501, length 196
+21:45:30.532294 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 3644:3680, ack 1, win 501, length 36
+21:45:30.532408 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 3680:3876, ack 1, win 501, length 196
+21:45:30.532495 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 3876:3912, ack 1, win 501, length 36
+21:45:30.532632 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 3912:4108, ack 1, win 501, length 196
+21:45:30.532724 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4108:4144, ack 1, win 501, length 36
+21:45:30.532833 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4144:4340, ack 1, win 501, length 196
+21:45:30.532920 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4340:4376, ack 1, win 501, length 36
+21:45:30.533032 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4376:4572, ack 1, win 501, length 196
+21:45:30.533123 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4572:4608, ack 1, win 501, length 36
+21:45:30.533234 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4608:4804, ack 1, win 501, length 196
+21:45:30.533322 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4804:4840, ack 1, win 501, length 36
+21:45:30.533431 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 4840:5036, ack 1, win 501, length 196
+21:45:30.533518 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 5036:5072, ack 1, win 501, length 36
+21:45:30.533629 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 5072:5268, ack 1, win 501, length 196
+21:45:30.533721 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 5268:5304, ack 1, win 501, length 36
+21:45:30.543464 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 4340, win 3091, length 0
+21:45:30.543531 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 5304:7856, ack 1, win 501, length 2552
+21:45:30.543714 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 7856:8036, ack 1, win 501, length 180
+21:45:30.543822 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8036:8072, ack 1, win 501, length 36
+21:45:30.543954 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8072:8268, ack 1, win 501, length 196
+21:45:30.544041 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8268:8304, ack 1, win 501, length 36
+21:45:30.544154 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8304:8500, ack 1, win 501, length 196
+21:45:30.544233 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 5036, win 3088, length 0
+21:45:30.544257 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 5304, win 3087, length 0
+21:45:30.544304 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8500:8536, ack 1, win 501, length 36
+21:45:30.544417 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8536:8732, ack 1, win 501, length 196
+21:45:30.544509 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8732:8768, ack 1, win 501, length 36
+21:45:30.544619 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8768:8964, ack 1, win 501, length 196
+21:45:30.544710 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 8964:9000, ack 1, win 501, length 36
+21:45:30.544821 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9000:9196, ack 1, win 501, length 196
+21:45:30.544907 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9196:9232, ack 1, win 501, length 36
+21:45:30.545009 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9232:9428, ack 1, win 501, length 196
+21:45:30.545101 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9428:9464, ack 1, win 501, length 36
+21:45:30.545210 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9464:9644, ack 1, win 501, length 180
+21:45:30.545297 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9644:9680, ack 1, win 501, length 36
+21:45:30.545400 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9680:9860, ack 1, win 501, length 180
+21:45:30.545492 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9860:9896, ack 1, win 501, length 36
+21:45:30.545601 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 9896:10092, ack 1, win 501, length 196
+21:45:30.545737 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 10092:10128, ack 1, win 501, length 36
+21:45:30.545852 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 10128:10324, ack 1, win 501, length 196
+21:45:30.545966 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 10324:10360, ack 1, win 501, length 36
+21:45:30.546083 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 10360:10556, ack 1, win 501, length 196
+21:45:30.546266 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 10556:11224, ack 1, win 501, length 668
+21:45:30.546472 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 11224:12204, ack 1, win 501, length 980
+21:45:30.546675 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 12204:13200, ack 1, win 501, length 996
+21:45:30.546834 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 13200:13556, ack 1, win 501, length 356
+21:45:30.546970 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 13556:13752, ack 1, win 501, length 196
+21:45:30.547102 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 13752:13948, ack 1, win 501, length 196
+21:45:30.547328 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 13948:14144, ack 1, win 501, length 196
+21:45:30.547513 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 14144:14340, ack 1, win 501, length 196
+21:45:30.547655 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 14340:14536, ack 1, win 501, length 196
+21:45:30.547782 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 14536:14732, ack 1, win 501, length 196
+21:45:30.547916 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 14732:14928, ack 1, win 501, length 196
+21:45:30.548046 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 14928:15124, ack 1, win 501, length 196
+21:45:30.548174 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 15124:15320, ack 1, win 501, length 196
+21:45:30.548321 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 15320:15516, ack 1, win 501, length 196
+21:45:30.548453 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 15516:15712, ack 1, win 501, length 196
+21:45:30.557386 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 8768, win 3091, length 0
+21:45:30.557442 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 15712:15908, ack 1, win 501, length 196
+21:45:30.557692 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 15908:16248, ack 1, win 501, length 340
+21:45:30.557849 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 16248:16444, ack 1, win 501, length 196
+21:45:30.558004 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 16444:16640, ack 1, win 501, length 196
+21:45:30.558140 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 16640:16836, ack 1, win 501, length 196
+21:45:30.558277 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 16836:17032, ack 1, win 501, length 196
+21:45:30.558414 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 17032:17228, ack 1, win 501, length 196
+21:45:30.558550 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 17228:17424, ack 1, win 501, length 196
+21:45:30.558687 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 17424:17620, ack 1, win 501, length 196
+21:45:30.558815 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 17620:17816, ack 1, win 501, length 196
+21:45:30.558949 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 17816:18012, ack 1, win 501, length 196
+21:45:30.559086 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 18012:18208, ack 1, win 501, length 196
+21:45:30.559280 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 18208:18404, ack 1, win 501, length 196
+21:45:30.559441 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 18404:18600, ack 1, win 501, length 196
+21:45:30.559575 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 18600:18796, ack 1, win 501, length 196
+21:45:30.559704 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 18796:18992, ack 1, win 501, length 196
+21:45:30.559840 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 18992:19188, ack 1, win 501, length 196
+21:45:30.559966 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 19188:19384, ack 1, win 501, length 196
+21:45:30.560099 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 19384:19580, ack 1, win 501, length 196
+21:45:30.560223 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 19580:19776, ack 1, win 501, length 196
+21:45:30.563411 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 9896, win 3086, length 0
+21:45:30.563488 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 19776:19972, ack 1, win 501, length 196
+21:45:30.563523 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 11224, win 3091, length 0
+21:45:30.563752 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 19972:20456, ack 1, win 501, length 484
+21:45:30.563909 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 20456:20652, ack 1, win 501, length 196
+21:45:30.564055 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 20652:20848, ack 1, win 501, length 196
+21:45:30.564193 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 20848:21044, ack 1, win 501, length 196
+21:45:30.564324 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 21044:21240, ack 1, win 501, length 196
+21:45:30.564362 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 15712, win 3091, length 0
+21:45:30.564552 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 21240:21580, ack 1, win 501, length 340
+21:45:30.564704 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 21580:21776, ack 1, win 501, length 196
+21:45:30.564853 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 21776:21972, ack 1, win 501, length 196
+21:45:30.564982 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 21972:22168, ack 1, win 501, length 196
+21:45:30.565110 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 22168:22364, ack 1, win 501, length 196
+21:45:30.565260 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 22364:22560, ack 1, win 501, length 196
+21:45:30.565432 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 22560:22756, ack 1, win 501, length 196
+21:45:30.565613 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 22756:22952, ack 1, win 501, length 196
+21:45:30.565761 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 22952:23148, ack 1, win 501, length 196
+21:45:30.565988 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 23148:23344, ack 1, win 501, length 196
+21:45:30.566135 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 23344:23540, ack 1, win 501, length 196
+21:45:30.566263 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 23540:23736, ack 1, win 501, length 196
+21:45:30.566411 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 23736:23932, ack 1, win 501, length 196
+21:45:30.566511 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 17816, win 3091, length 0
+21:45:30.566543 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 18600, win 3088, length 0
+21:45:30.566689 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 23932:24416, ack 1, win 501, length 484
+21:45:30.566836 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 24416:24612, ack 1, win 501, length 196
+21:45:30.566985 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 24612:24808, ack 1, win 501, length 196
+21:45:30.567137 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 24808:25004, ack 1, win 501, length 196
+21:45:30.567324 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 25004:25200, ack 1, win 501, length 196
+21:45:30.567456 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 25200:25396, ack 1, win 501, length 196
+21:45:30.567673 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 25396:25592, ack 1, win 501, length 196
+21:45:30.567812 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 25592:25788, ack 1, win 501, length 196
+21:45:30.567956 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 25788:25984, ack 1, win 501, length 196
+21:45:30.568110 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 25984:26180, ack 1, win 501, length 196
+21:45:30.568257 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 26180:26376, ack 1, win 501, length 196
+21:45:30.568390 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 26376:26572, ack 1, win 501, length 196
+21:45:30.568514 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 26572:26768, ack 1, win 501, length 196
+21:45:30.568660 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 26768:26964, ack 1, win 501, length 196
+21:45:30.568806 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 26964:27160, ack 1, win 501, length 196
+21:45:30.568943 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 27160:27356, ack 1, win 501, length 196
+21:45:30.569076 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 27356:27552, ack 1, win 501, length 196
+21:45:30.569218 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 27552:27748, ack 1, win 501, length 196
+21:45:30.569369 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 27748:27944, ack 1, win 501, length 196
+21:45:30.569516 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 27944:28140, ack 1, win 501, length 196
+21:45:30.569642 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 28140:28336, ack 1, win 501, length 196
+21:45:30.569713 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 19776, win 3091, length 0
+21:45:30.569903 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 28336:28676, ack 1, win 501, length 340
+21:45:30.570052 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 28676:28872, ack 1, win 501, length 196
+21:45:30.570203 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 28872:29068, ack 1, win 501, length 196
+21:45:30.570336 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 29068:29264, ack 1, win 501, length 196
+21:45:30.570460 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 29264:29460, ack 1, win 501, length 196
+21:45:30.570616 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 29460:29656, ack 1, win 501, length 196
+21:45:30.570763 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 29656:29852, ack 1, win 501, length 196
+21:45:30.570899 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 29852:30048, ack 1, win 501, length 196
+21:45:30.571040 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 30048:30244, ack 1, win 501, length 196
+21:45:30.571199 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 30244:30440, ack 1, win 501, length 196
+21:45:30.571341 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 30440:30636, ack 1, win 501, length 196
+21:45:30.571485 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 30636:30832, ack 1, win 501, length 196
+21:45:30.571637 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 30832:31028, ack 1, win 501, length 196
+21:45:30.571776 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 31028:31224, ack 1, win 501, length 196
+21:45:30.571927 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 31224:31420, ack 1, win 501, length 196
+21:45:30.572069 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 31420:31616, ack 1, win 501, length 196
+21:45:30.572215 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 31616:31812, ack 1, win 501, length 196
+21:45:30.572368 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 31812:32008, ack 1, win 501, length 196
+21:45:30.572515 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 32008:32204, ack 1, win 501, length 196
+21:45:30.572650 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 32204:32400, ack 1, win 501, length 196
+21:45:30.572779 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 32400:32596, ack 1, win 501, length 196
+21:45:30.572938 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 32596:32792, ack 1, win 501, length 196
+21:45:30.573075 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 32792:32988, ack 1, win 501, length 196
+21:45:30.573200 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 32988:33184, ack 1, win 501, length 196
+21:45:30.573324 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 33184:33380, ack 1, win 501, length 196
+21:45:30.573458 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 33380:33576, ack 1, win 501, length 196
+21:45:30.573599 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 33576:33772, ack 1, win 501, length 196
+21:45:30.573746 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 33772:33968, ack 1, win 501, length 196
+21:45:30.573914 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 33968:34164, ack 1, win 501, length 196
+21:45:30.574040 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 34164:34360, ack 1, win 501, length 196
+21:45:30.574165 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 34360:34556, ack 1, win 501, length 196
+21:45:30.574298 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 34556:34752, ack 1, win 501, length 196
+21:45:30.574438 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 34752:34948, ack 1, win 501, length 196
+21:45:30.574563 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 34948:35144, ack 1, win 501, length 196
+21:45:30.574708 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 35144:35340, ack 1, win 501, length 196
+21:45:30.574852 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 35340:35536, ack 1, win 501, length 196
+21:45:30.575002 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 35536:35732, ack 1, win 501, length 196
+21:45:30.575133 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 35732:35928, ack 1, win 501, length 196
+21:45:30.575313 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 35928:36124, ack 1, win 501, length 196
+21:45:30.575592 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 36124:36320, ack 1, win 501, length 196
+21:45:30.575741 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 36320:36516, ack 1, win 501, length 196
+21:45:30.575879 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 36516:36712, ack 1, win 501, length 196
+21:45:30.576028 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 36712:36908, ack 1, win 501, length 196
+21:45:30.576181 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 36908:37104, ack 1, win 501, length 196
+21:45:30.576314 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 37104:37300, ack 1, win 501, length 196
+21:45:30.576569 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 37300:37496, ack 1, win 501, length 196
+21:45:30.576733 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 37496:37692, ack 1, win 501, length 196
+21:45:30.576882 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 37692:37888, ack 1, win 501, length 196
+21:45:30.577033 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 37888:38084, ack 1, win 501, length 196
+21:45:30.577156 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 22168, win 3091, length 0
+21:45:30.577325 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 38084:38424, ack 1, win 501, length 340
+21:45:30.577488 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 38424:38620, ack 1, win 501, length 196
+21:45:30.577636 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 38620:38816, ack 1, win 501, length 196
+21:45:30.577834 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 38816:39012, ack 1, win 501, length 196
+21:45:30.578018 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 39012:39208, ack 1, win 501, length 196
+21:45:30.578167 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 39208:39404, ack 1, win 501, length 196
+21:45:30.578319 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 39404:39600, ack 1, win 501, length 196
+21:45:30.578480 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 39600:39796, ack 1, win 501, length 196
+21:45:30.578644 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 39796:39992, ack 1, win 501, length 196
+21:45:30.578806 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 39992:40188, ack 1, win 501, length 196
+21:45:30.578899 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 22952, win 3088, length 0
+21:45:30.579037 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 40188:40528, ack 1, win 501, length 340
+21:45:30.579220 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 40528:40724, ack 1, win 501, length 196
+21:45:30.579373 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 40724:40920, ack 1, win 501, length 196
+21:45:30.579522 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 40920:41116, ack 1, win 501, length 196
+21:45:30.579669 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 41116:41312, ack 1, win 501, length 196
+21:45:30.579820 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 41312:41508, ack 1, win 501, length 196
+21:45:30.579862 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 25200, win 3091, length 0
+21:45:30.580022 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 41508:41848, ack 1, win 501, length 340
+21:45:30.580178 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 25788, win 3088, length 0
+21:45:30.580212 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 27748, win 3091, length 0
+21:45:30.580411 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 41848:42044, ack 1, win 501, length 196
+21:45:30.580507 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 42044:42368, ack 1, win 501, length 324
+21:45:30.580657 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 42368:42724, ack 1, win 501, length 356
+21:45:30.580784 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 42724:42920, ack 1, win 501, length 196
+21:45:30.580910 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 42920:43116, ack 1, win 501, length 196
+21:45:30.581087 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 43116:43312, ack 1, win 501, length 196
+21:45:30.581244 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 43312:43508, ack 1, win 501, length 196
+21:45:30.581437 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 43508:43704, ack 1, win 501, length 196
+21:45:30.581608 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 43704:43900, ack 1, win 501, length 196
+21:45:30.581778 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 43900:44096, ack 1, win 501, length 196
+21:45:30.581930 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 44096:44292, ack 1, win 501, length 196
+21:45:30.582058 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 44292:44488, ack 1, win 501, length 196
+21:45:30.582180 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 44488:44684, ack 1, win 501, length 196
+21:45:30.582252 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 29068, win 3085, length 0
+21:45:30.582443 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 44684:45024, ack 1, win 501, length 340
+21:45:30.582593 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 45024:45220, ack 1, win 501, length 196
+21:45:30.582722 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 45220:45416, ack 1, win 501, length 196
+21:45:30.582845 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 45416:45612, ack 1, win 501, length 196
+21:45:30.582974 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 45612:45808, ack 1, win 501, length 196
+21:45:30.583099 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 45808:46004, ack 1, win 501, length 196
+21:45:30.583264 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 46004:46200, ack 1, win 501, length 196
+21:45:30.583413 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 31028, win 3091, length 0
+21:45:30.583436 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 32008, win 3087, length 0
+21:45:30.583449 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 46200:46396, ack 1, win 501, length 196
+21:45:30.583563 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 33968, win 3091, length 0
+21:45:30.583699 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 46396:47032, ack 1, win 501, length 636
+21:45:30.583834 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 47032:47228, ack 1, win 501, length 196
+21:45:30.583960 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 47228:47424, ack 1, win 501, length 196
+21:45:30.584087 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 47424:47620, ack 1, win 501, length 196
+21:45:30.584219 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 47620:47816, ack 1, win 501, length 196
+21:45:30.584342 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 47816:48012, ack 1, win 501, length 196
+21:45:30.584466 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 48012:48208, ack 1, win 501, length 196
+21:45:30.584597 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 48208:48404, ack 1, win 501, length 196
+21:45:30.584722 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 48404:48600, ack 1, win 501, length 196
+21:45:30.584858 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 48600:48796, ack 1, win 501, length 196
+21:45:30.584989 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 48796:48992, ack 1, win 501, length 196
+21:45:30.585111 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 48992:49188, ack 1, win 501, length 196
+21:45:30.585236 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 49188:49384, ack 1, win 501, length 196
+21:45:30.585367 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 49384:49580, ack 1, win 501, length 196
+21:45:30.585492 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 49580:49776, ack 1, win 501, length 196
+21:45:30.585540 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 34752, win 3088, length 0
+21:45:30.585552 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 36712, win 3091, length 0
+21:45:30.585702 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 49776:50260, ack 1, win 501, length 484
+21:45:30.585831 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 50260:50456, ack 1, win 501, length 196
+21:45:30.586001 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 50456:50652, ack 1, win 501, length 196
+21:45:30.586132 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 50652:50848, ack 1, win 501, length 196
+21:45:30.586304 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 50848:51044, ack 1, win 501, length 196
+21:45:30.586480 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 51044:51240, ack 1, win 501, length 196
+21:45:30.586620 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 51240:51436, ack 1, win 501, length 196
+21:45:30.586705 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 37300, win 3088, length 0
+21:45:30.586825 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 51436:51776, ack 1, win 501, length 340
+21:45:30.586963 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 51776:51972, ack 1, win 501, length 196
+21:45:30.587092 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 51972:52168, ack 1, win 501, length 196
+21:45:30.587248 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 52168:52364, ack 1, win 501, length 196
+21:45:30.587385 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 52364:52560, ack 1, win 501, length 196
+21:45:30.587511 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 52560:52756, ack 1, win 501, length 196
+21:45:30.587643 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 52756:52952, ack 1, win 501, length 196
+21:45:30.587769 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 52952:53148, ack 1, win 501, length 196
+21:45:30.587956 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 53148:53344, ack 1, win 501, length 196
+21:45:30.588093 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 53344:53540, ack 1, win 501, length 196
+21:45:30.588227 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 53540:53736, ack 1, win 501, length 196
+21:45:30.588350 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 53736:53932, ack 1, win 501, length 196
+21:45:30.588474 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 53932:54128, ack 1, win 501, length 196
+21:45:30.588598 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 54128:54324, ack 1, win 501, length 196
+21:45:30.588726 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 54324:54520, ack 1, win 501, length 196
+21:45:30.588851 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 54520:54716, ack 1, win 501, length 196
+21:45:30.588976 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 54716:54912, ack 1, win 501, length 196
+21:45:30.589081 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 39404, win 3091, length 0
+21:45:30.589110 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 39992, win 3088, length 0
+21:45:30.589237 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 54912:55396, ack 1, win 501, length 484
+21:45:30.589365 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 55396:55592, ack 1, win 501, length 196
+21:45:30.589489 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 55592:55788, ack 1, win 501, length 196
+21:45:30.589616 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 55788:55984, ack 1, win 501, length 196
+21:45:30.589680 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 42368, win 3091, length 0
+21:45:30.589706 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 43116, win 3088, length 0
+21:45:30.589831 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 55984:56468, ack 1, win 501, length 484
+21:45:30.589990 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 56468:56664, ack 1, win 501, length 196
+21:45:30.590116 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 56664:56860, ack 1, win 501, length 196
+21:45:30.590245 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 56860:57056, ack 1, win 501, length 196
+21:45:30.590368 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 57056:57252, ack 1, win 501, length 196
+21:45:30.590490 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 57252:57448, ack 1, win 501, length 196
+21:45:30.590621 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 57448:57644, ack 1, win 501, length 196
+21:45:30.590742 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 57644:57840, ack 1, win 501, length 196
+21:45:30.590870 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 57840:58036, ack 1, win 501, length 196
+21:45:30.590977 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 45808, win 3091, length 0
+21:45:30.591045 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 58036:58232, ack 1, win 501, length 196
+21:45:30.591225 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 58232:58572, ack 1, win 501, length 340
+21:45:30.591368 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 58572:58768, ack 1, win 501, length 196
+21:45:30.591494 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 58768:58964, ack 1, win 501, length 196
+21:45:30.591617 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 58964:59160, ack 1, win 501, length 196
+21:45:30.591738 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 59160:59356, ack 1, win 501, length 196
+21:45:30.591908 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 59356:59552, ack 1, win 501, length 196
+21:45:30.592039 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 59552:59748, ack 1, win 501, length 196
+21:45:30.592170 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 59748:59944, ack 1, win 501, length 196
+21:45:30.592373 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 59944:60140, ack 1, win 501, length 196
+21:45:30.592534 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 60140:60336, ack 1, win 501, length 196
+21:45:30.592663 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 60336:60532, ack 1, win 501, length 196
+21:45:30.592797 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 60532:60728, ack 1, win 501, length 196
+21:45:30.592922 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 60728:60924, ack 1, win 501, length 196
+21:45:30.593055 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 60924:61120, ack 1, win 501, length 196
+21:45:30.593183 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 61120:61316, ack 1, win 501, length 196
+21:45:30.593316 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 61316:61512, ack 1, win 501, length 196
+21:45:30.593441 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 61512:61708, ack 1, win 501, length 196
+21:45:30.593570 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 61708:61904, ack 1, win 501, length 196
+21:45:30.593696 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 61904:62100, ack 1, win 501, length 196
+21:45:30.593827 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 62100:62296, ack 1, win 501, length 196
+21:45:30.593993 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 48208, win 3091, length 0
+21:45:30.594017 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 49188, win 3087, length 0
+21:45:30.594033 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 62296:62492, ack 1, win 501, length 196
+21:45:30.594207 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 62492:62976, ack 1, win 501, length 484
+21:45:30.594344 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 62976:63172, ack 1, win 501, length 196
+21:45:30.594476 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 63172:63368, ack 1, win 501, length 196
+21:45:30.594606 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 63368:63564, ack 1, win 501, length 196
+21:45:30.594729 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 63564:63760, ack 1, win 501, length 196
+21:45:30.594857 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 63760:63956, ack 1, win 501, length 196
+21:45:30.594980 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 63956:64152, ack 1, win 501, length 196
+21:45:30.595108 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 64152:64348, ack 1, win 501, length 196
+21:45:30.595271 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 64348:64544, ack 1, win 501, length 196
+21:45:30.595411 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 64544:64740, ack 1, win 501, length 196
+21:45:30.595535 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 64740:64936, ack 1, win 501, length 196
+21:45:30.595668 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 64936:65132, ack 1, win 501, length 196
+21:45:30.595791 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 65132:65328, ack 1, win 501, length 196
+21:45:30.595925 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 65328:65524, ack 1, win 501, length 196
+21:45:30.596055 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 65524:65720, ack 1, win 501, length 196
+21:45:30.596180 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 65720:65916, ack 1, win 501, length 196
+21:45:30.596303 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 65916:66112, ack 1, win 501, length 196
+21:45:30.596435 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 66112:66308, ack 1, win 501, length 196
+21:45:30.596575 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 66308:66504, ack 1, win 501, length 196
+21:45:30.596698 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 66504:66700, ack 1, win 501, length 196
+21:45:30.596825 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 66700:66896, ack 1, win 501, length 196
+21:45:30.596948 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 66896:67092, ack 1, win 501, length 196
+21:45:30.597078 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 67092:67288, ack 1, win 501, length 196
+21:45:30.597206 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 67288:67484, ack 1, win 501, length 196
+21:45:30.597382 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 67484:67680, ack 1, win 501, length 196
+21:45:30.597520 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 67680:67876, ack 1, win 501, length 196
+21:45:30.597643 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 67876:68072, ack 1, win 501, length 196
+21:45:30.597812 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 68072:68268, ack 1, win 501, length 196
+21:45:30.598025 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 68268:68464, ack 1, win 501, length 196
+21:45:30.598156 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 51436, win 3091, length 0
+21:45:30.598190 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 52756, win 3085, length 0
+21:45:30.598300 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 68464:68948, ack 1, win 501, length 484
+21:45:30.598439 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 68948:69144, ack 1, win 501, length 196
+21:45:30.598563 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 69144:69340, ack 1, win 501, length 196
+21:45:30.598702 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 54128, win 3091, length 0
+21:45:30.598725 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [P.], seq 1:37, ack 54128, win 3091, length 36
+21:45:30.598739 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 69340:69536, ack 1, win 501, length 196
+21:45:30.598928 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 69536:70036, ack 37, win 501, length 500
+21:45:30.599055 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 70036:70232, ack 37, win 501, length 196
+21:45:30.599114 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 55788, win 3091, length 0
+21:45:30.599268 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 70232:70572, ack 37, win 501, length 340
+21:45:30.599404 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 70572:70768, ack 37, win 501, length 196
+21:45:30.599552 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 70768:70964, ack 37, win 501, length 196
+21:45:30.599684 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 70964:71160, ack 37, win 501, length 196
+21:45:30.599804 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 71160:71356, ack 37, win 501, length 196
+21:45:30.599931 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 71356:71552, ack 37, win 501, length 196
+21:45:30.600057 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 71552:71748, ack 37, win 501, length 196
+21:45:30.600177 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 71748:71944, ack 37, win 501, length 196
+21:45:30.600302 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 71944:72140, ack 37, win 501, length 196
+21:45:30.600430 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 72140:72336, ack 37, win 501, length 196
+21:45:30.600552 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 72336:72532, ack 37, win 501, length 196
+21:45:30.600695 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 72532:72728, ack 37, win 501, length 196
+21:45:30.600819 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 72728:72924, ack 37, win 501, length 196
+21:45:30.600940 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 72924:73120, ack 37, win 501, length 196
+21:45:30.601067 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 73120:73316, ack 37, win 501, length 196
+21:45:30.601189 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 73316:73512, ack 37, win 501, length 196
+21:45:30.601323 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 73512:73708, ack 37, win 501, length 196
+21:45:30.601454 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 73708:73904, ack 37, win 501, length 196
+21:45:30.601575 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 73904:74100, ack 37, win 501, length 196
+21:45:30.601700 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 74100:74296, ack 37, win 501, length 196
+21:45:30.601828 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 74296:74492, ack 37, win 501, length 196
+21:45:30.601989 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 74492:74688, ack 37, win 501, length 196
+21:45:30.602124 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 74688:74884, ack 37, win 501, length 196
+21:45:30.602247 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 74884:75080, ack 37, win 501, length 196
+21:45:30.602375 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 75080:75276, ack 37, win 501, length 196
+21:45:30.602498 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 75276:75472, ack 37, win 501, length 196
+21:45:30.602623 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 75472:75668, ack 37, win 501, length 196
+21:45:30.602761 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 75668:75864, ack 37, win 501, length 196
+21:45:30.602859 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 58036, win 3091, length 0
+21:45:30.602965 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 75864:76204, ack 37, win 501, length 340
+21:45:30.603098 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 76204:76400, ack 37, win 501, length 196
+21:45:30.603240 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 76400:76596, ack 37, win 501, length 196
+21:45:30.603391 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 76596:76792, ack 37, win 501, length 196
+21:45:30.603521 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 76792:76988, ack 37, win 501, length 196
+21:45:30.603664 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 59356, win 3085, length 0
+21:45:30.603687 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 76988:77184, ack 37, win 501, length 196
+21:45:30.603838 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 77184:77524, ack 37, win 501, length 340
+21:45:30.603966 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 77524:77720, ack 37, win 501, length 196
+21:45:30.604094 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 77720:77916, ack 37, win 501, length 196
+21:45:30.604215 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 77916:78112, ack 37, win 501, length 196
+21:45:30.604264 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 61708, win 3091, length 0
+21:45:30.604299 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 63956, win 3091, length 0
+21:45:30.604431 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 78112:78604, ack 37, win 501, length 492
+21:45:30.604539 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 65132, win 3086, length 0
+21:45:30.604639 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 78604:78944, ack 37, win 501, length 340
+21:45:30.604776 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 78944:79140, ack 37, win 501, length 196
+21:45:30.604906 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 79140:79336, ack 37, win 501, length 196
+21:45:30.605058 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 79336:79532, ack 37, win 501, length 196
+21:45:30.605208 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 79532:79728, ack 37, win 501, length 196
+21:45:30.605334 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 79728:79924, ack 37, win 501, length 196
+21:45:30.605457 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 79924:80120, ack 37, win 501, length 196
+21:45:30.605588 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 80120:80316, ack 37, win 501, length 196
+21:45:30.605711 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 80316:80512, ack 37, win 501, length 196
+21:45:30.605853 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 80512:80708, ack 37, win 501, length 196
+21:45:30.606022 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 80708:80904, ack 37, win 501, length 196
+21:45:30.606167 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 80904:81100, ack 37, win 501, length 196
+21:45:30.606296 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 81100:81296, ack 37, win 501, length 196
+21:45:30.606420 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 81296:81492, ack 37, win 501, length 196
+21:45:30.606553 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 81492:81688, ack 37, win 501, length 196
+21:45:30.606701 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 81688:81884, ack 37, win 501, length 196
+21:45:30.606839 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 81884:82080, ack 37, win 501, length 196
+21:45:30.606992 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 82080:82276, ack 37, win 501, length 196
+21:45:30.607126 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 82276:82472, ack 37, win 501, length 196
+21:45:30.607281 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 82472:82668, ack 37, win 501, length 196
+21:45:30.607410 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 82668:82864, ack 37, win 501, length 196
+21:45:30.607535 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 82864:83060, ack 37, win 501, length 196
+21:45:30.607661 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 83060:83256, ack 37, win 501, length 196
+21:45:30.607788 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 83256:83452, ack 37, win 501, length 196
+21:45:30.607916 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 83452:83648, ack 37, win 501, length 196
+21:45:30.608094 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 83648:83844, ack 37, win 501, length 196
+21:45:30.608230 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 83844:84040, ack 37, win 501, length 196
+21:45:30.608357 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 84040:84236, ack 37, win 501, length 196
+21:45:30.608481 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 84236:84432, ack 37, win 501, length 196
+21:45:30.608603 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 84432:84628, ack 37, win 501, length 196
+21:45:30.608735 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 84628:84824, ack 37, win 501, length 196
+21:45:30.608860 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 84824:85020, ack 37, win 501, length 196
+21:45:30.608994 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 85020:85216, ack 37, win 501, length 196
+21:45:30.609126 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 85216:85412, ack 37, win 501, length 196
+21:45:30.609252 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 85412:85608, ack 37, win 501, length 196
+21:45:30.609408 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 85608:85804, ack 37, win 501, length 196
+21:45:30.610179 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 85804:86000, ack 37, win 501, length 196
+21:45:30.610402 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 86000:86196, ack 37, win 501, length 196
+21:45:30.610557 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 86196:86392, ack 37, win 501, length 196
+21:45:30.610692 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 86392:86588, ack 37, win 501, length 196
+21:45:30.610826 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 86588:86784, ack 37, win 501, length 196
+21:45:30.610967 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 86784:86980, ack 37, win 501, length 196
+21:45:30.611095 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 86980:87176, ack 37, win 501, length 196
+21:45:30.611273 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 87176:87372, ack 37, win 501, length 196
+21:45:30.611473 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 87372:87568, ack 37, win 501, length 196
+21:45:30.611613 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 87568:87764, ack 37, win 501, length 196
+21:45:30.611692 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 67092, win 3091, length 0
+21:45:30.611729 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 68268, win 3086, length 0
+21:45:30.611866 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 87764:88256, ack 37, win 501, length 492
+21:45:30.612011 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 88256:88452, ack 37, win 501, length 196
+21:45:30.612144 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 88452:88648, ack 37, win 501, length 196
+21:45:30.612276 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 88648:88844, ack 37, win 501, length 196
+21:45:30.612480 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 70964, win 3091, length 0
+21:45:30.612517 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 71944, win 3087, length 0
+21:45:30.612634 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 88844:89040, ack 37, win 501, length 196
+21:45:30.612777 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 89040:89364, ack 37, win 501, length 324
+21:45:30.612846 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 89364:89560, ack 37, win 501, length 196
+21:45:30.613152 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 89560:89916, ack 37, win 501, length 356
+21:45:30.613283 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 89916:90112, ack 37, win 501, length 196
+21:45:30.613406 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 90112:90308, ack 37, win 501, length 196
+21:45:30.613538 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 90308:90504, ack 37, win 501, length 196
+21:45:30.613661 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 90504:90700, ack 37, win 501, length 196
+21:45:30.613788 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 90700:90896, ack 37, win 501, length 196
+21:45:30.613952 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 90896:91092, ack 37, win 501, length 196
+21:45:30.614085 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 91092:91288, ack 37, win 501, length 196
+21:45:30.614217 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 91288:91484, ack 37, win 501, length 196
+21:45:30.614339 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 91484:91680, ack 37, win 501, length 196
+21:45:30.614471 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 91680:91876, ack 37, win 501, length 196
+21:45:30.614597 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 91876:92072, ack 37, win 501, length 196
+21:45:30.614717 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 92072:92268, ack 37, win 501, length 196
+21:45:30.614846 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 92268:92464, ack 37, win 501, length 196
+21:45:30.614970 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 92464:92660, ack 37, win 501, length 196
+21:45:30.615100 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 92660:92856, ack 37, win 501, length 196
+21:45:30.615247 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 92856:93052, ack 37, win 501, length 196
+21:45:30.615374 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 93052:93248, ack 37, win 501, length 196
+21:45:30.615504 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 93248:93444, ack 37, win 501, length 196
+21:45:30.615628 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 93444:93640, ack 37, win 501, length 196
+21:45:30.615758 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 93640:93836, ack 37, win 501, length 196
+21:45:30.615879 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 93836:94032, ack 37, win 501, length 196
+21:45:30.616009 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 94032:94228, ack 37, win 501, length 196
+21:45:30.616131 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 94228:94424, ack 37, win 501, length 196
+21:45:30.616296 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 94424:94620, ack 37, win 501, length 196
+21:45:30.616469 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 94620:94816, ack 37, win 501, length 196
+21:45:30.616611 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 94816:95012, ack 37, win 501, length 196
+21:45:30.616746 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 95012:95208, ack 37, win 501, length 196
+21:45:30.616878 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 95208:95404, ack 37, win 501, length 196
+21:45:30.617008 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 95404:95600, ack 37, win 501, length 196
+21:45:30.617131 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 95600:95796, ack 37, win 501, length 196
+21:45:30.617268 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 95796:95992, ack 37, win 501, length 196
+21:45:30.617394 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 95992:96188, ack 37, win 501, length 196
+21:45:30.617519 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 96188:96384, ack 37, win 501, length 196
+21:45:30.617648 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 96384:96580, ack 37, win 501, length 196
+21:45:30.617778 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 96580:96776, ack 37, win 501, length 196
+21:45:30.617860 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 73904, win 3091, length 0
+21:45:30.617912 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 75080, win 3086, length 0
+21:45:30.618256 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 96776:97268, ack 37, win 501, length 492
+21:45:30.618411 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 97268:97464, ack 37, win 501, length 196
+21:45:30.618536 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 97464:97660, ack 37, win 501, length 196
+21:45:30.618664 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 97660:97856, ack 37, win 501, length 196
+21:45:30.618792 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 97856:98052, ack 37, win 501, length 196
+21:45:30.618839 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 78944, win 3091, length 0
+21:45:30.618853 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 79728, win 3088, length 0
+21:45:30.619017 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 98052:98544, ack 37, win 501, length 492
+21:45:30.619158 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 98544:98740, ack 37, win 501, length 196
+21:45:30.619313 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 98740:98936, ack 37, win 501, length 196
+21:45:30.619440 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 98936:99132, ack 37, win 501, length 196
+21:45:30.619564 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 99132:99328, ack 37, win 501, length 196
+21:45:30.619698 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 99328:99524, ack 37, win 501, length 196
+21:45:30.619839 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 81100, win 3091, length 0
+21:45:30.619879 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 99524:99720, ack 37, win 501, length 196
+21:45:30.620035 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 99720:100060, ack 37, win 501, length 340
+21:45:30.620170 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 100060:100256, ack 37, win 501, length 196
+21:45:30.620296 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 100256:100460, ack 37, win 501, length 204
+21:45:30.620441 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 100460:100664, ack 37, win 501, length 204
+21:45:30.620578 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 100664:100868, ack 37, win 501, length 204
+21:45:30.620710 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 100868:101072, ack 37, win 501, length 204
+21:45:30.620834 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 101072:101276, ack 37, win 501, length 204
+21:45:30.620956 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 101276:101480, ack 37, win 501, length 204
+21:45:30.621088 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 101480:101684, ack 37, win 501, length 204
+21:45:30.621217 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 101684:101888, ack 37, win 501, length 204
+21:45:30.621339 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 101888:102092, ack 37, win 501, length 204
+21:45:30.621470 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 102092:102296, ack 37, win 501, length 204
+21:45:30.621593 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 102296:102500, ack 37, win 501, length 204
+21:45:30.621719 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 102500:102704, ack 37, win 501, length 204
+21:45:30.621927 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 102704:102908, ack 37, win 501, length 204
+21:45:30.622143 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 102908:103112, ack 37, win 501, length 204
+21:45:30.622230 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 83060, win 3091, length 0
+21:45:30.622266 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 84432, win 3085, length 0
+21:45:30.622483 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 86196, win 3091, length 0
+21:45:30.622525 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 88452, win 3091, length 0
+21:45:30.622795 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 103112:103604, ack 37, win 501, length 492
+21:45:30.622939 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 103604:104096, ack 37, win 501, length 492
+21:45:30.623066 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 104096:104300, ack 37, win 501, length 204
+21:45:30.623216 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 104300:104504, ack 37, win 501, length 204
+21:45:30.623345 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 104504:104708, ack 37, win 501, length 204
+21:45:30.623469 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 104708:104912, ack 37, win 501, length 204
+21:45:30.623591 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 104912:105116, ack 37, win 501, length 204
+21:45:30.623693 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 89560, win 3086, length 0
+21:45:30.623806 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 105116:105464, ack 37, win 501, length 348
+21:45:30.623932 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 105464:105668, ack 37, win 501, length 204
+21:45:30.624054 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 105668:105872, ack 37, win 501, length 204
+21:45:30.624155 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 91680, win 3091, length 0
+21:45:30.624185 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 92660, win 3087, length 0
+21:45:30.624238 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 105872:106076, ack 37, win 501, length 204
+21:45:30.624398 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 106076:106568, ack 37, win 501, length 492
+21:45:30.624525 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 106568:106772, ack 37, win 501, length 204
+21:45:30.624647 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 106772:106976, ack 37, win 501, length 204
+21:45:30.624768 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 106976:107180, ack 37, win 501, length 204
+21:45:30.624896 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 107180:107384, ack 37, win 501, length 204
+21:45:30.625023 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 107384:107588, ack 37, win 501, length 204
+21:45:30.625150 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 107588:107792, ack 37, win 501, length 204
+21:45:30.625246 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 94620, win 3091, length 0
+21:45:30.625273 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 95404, win 3088, length 0
+21:45:30.625380 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 107792:108284, ack 37, win 501, length 492
+21:45:30.625520 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 108284:108488, ack 37, win 501, length 204
+21:45:30.625648 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 108488:108692, ack 37, win 501, length 204
+21:45:30.625771 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 108692:108896, ack 37, win 501, length 204
+21:45:30.625925 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 108896:109100, ack 37, win 501, length 204
+21:45:30.626051 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 109100:109304, ack 37, win 501, length 204
+21:45:30.626177 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 109304:109508, ack 37, win 501, length 204
+21:45:30.626302 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 109508:109712, ack 37, win 501, length 204
+21:45:30.626432 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 109712:109916, ack 37, win 501, length 204
+21:45:30.626556 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 109916:110120, ack 37, win 501, length 204
+21:45:30.626683 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 110120:110324, ack 37, win 501, length 204
+21:45:30.626838 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 110324:110528, ack 37, win 501, length 204
+21:45:30.626971 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 110528:110732, ack 37, win 501, length 204
+21:45:30.627099 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 110732:110936, ack 37, win 501, length 204
+21:45:30.627266 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 110936:111140, ack 37, win 501, length 204
+21:45:30.627402 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 111140:111344, ack 37, win 501, length 204
+21:45:30.627535 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 111344:111548, ack 37, win 501, length 204
+21:45:30.627631 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 97660, win 3091, length 0
+21:45:30.627659 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 98544, win 3087, length 0
+21:45:30.627769 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 111548:112040, ack 37, win 501, length 492
+21:45:30.627902 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 112040:112244, ack 37, win 501, length 204
+21:45:30.628043 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 112244:112448, ack 37, win 501, length 204
+21:45:30.628168 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 112448:112652, ack 37, win 501, length 204
+21:45:30.628346 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 112652:112856, ack 37, win 501, length 204
+21:45:30.628483 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 112856:113060, ack 37, win 501, length 204
+21:45:30.628614 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 113060:113264, ack 37, win 501, length 204
+21:45:30.628739 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 113264:113468, ack 37, win 501, length 204
+21:45:30.628887 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 113468:113672, ack 37, win 501, length 204
+21:45:30.629030 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 100664, win 3091, length 0
+21:45:30.629060 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 113672:113876, ack 37, win 501, length 204
+21:45:30.629213 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 113876:114224, ack 37, win 501, length 348
+21:45:30.629352 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 114224:114428, ack 37, win 501, length 204
+21:45:30.629463 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 101888, win 3086, length 0
+21:45:30.629589 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 102296, win 3091, length 0
+21:45:30.629612 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 114428:114776, ack 37, win 501, length 348
+21:45:30.629775 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 114776:115124, ack 37, win 501, length 348
+21:45:30.629943 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 115124:115328, ack 37, win 501, length 204
+21:45:30.630073 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 115328:115532, ack 37, win 501, length 204
+21:45:30.630227 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 115532:115736, ack 37, win 501, length 204
+21:45:30.630354 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 115736:115940, ack 37, win 501, length 204
+21:45:30.630491 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 115940:116144, ack 37, win 501, length 204
+21:45:30.630620 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 116144:116348, ack 37, win 501, length 204
+21:45:30.630743 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 116348:116552, ack 37, win 501, length 204
+21:45:30.630882 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 116552:116756, ack 37, win 501, length 204
+21:45:30.631028 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 116756:116960, ack 37, win 501, length 204
+21:45:30.631153 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 116960:117164, ack 37, win 501, length 204
+21:45:30.631302 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 117164:117368, ack 37, win 501, length 204
+21:45:30.631451 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 117368:117572, ack 37, win 501, length 204
+21:45:30.631598 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 117572:117776, ack 37, win 501, length 204
+21:45:30.631725 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 117776:117980, ack 37, win 501, length 204
+21:45:30.631850 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 117980:118184, ack 37, win 501, length 204
+21:45:30.631971 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 104912, win 3091, length 0
+21:45:30.632034 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 118184:118388, ack 37, win 501, length 204
+21:45:30.632185 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 118388:118736, ack 37, win 501, length 348
+21:45:30.632328 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 118736:118940, ack 37, win 501, length 204
+21:45:30.632455 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 118940:119144, ack 37, win 501, length 204
+21:45:30.632582 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 119144:119348, ack 37, win 501, length 204
+21:45:30.632724 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 119348:119552, ack 37, win 501, length 204
+21:45:30.632850 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 119552:119756, ack 37, win 501, length 204
+21:45:30.632983 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 119756:119960, ack 37, win 501, length 204
+21:45:30.633100 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 107384, win 3091, length 0
+21:45:30.633133 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 108692, win 3085, length 0
+21:45:30.633200 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 119960:120164, ack 37, win 501, length 204
+21:45:30.633377 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 120164:120656, ack 37, win 501, length 492
+21:45:30.633521 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 120656:120860, ack 37, win 501, length 204
+21:45:30.633663 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 120860:121064, ack 37, win 501, length 204
+21:45:30.633787 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 121064:121268, ack 37, win 501, length 204
+21:45:30.633938 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 121268:121472, ack 37, win 501, length 204
+21:45:30.634064 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 121472:121676, ack 37, win 501, length 204
+21:45:30.634188 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 121676:121880, ack 37, win 501, length 204
+21:45:30.634320 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 121880:122084, ack 37, win 501, length 204
+21:45:30.634443 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 122084:122288, ack 37, win 501, length 204
+21:45:30.634574 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 122288:122492, ack 37, win 501, length 204
+21:45:30.634698 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 122492:122696, ack 37, win 501, length 204
+21:45:30.634828 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 122696:122900, ack 37, win 501, length 204
+21:45:30.634954 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 122900:123104, ack 37, win 501, length 204
+21:45:30.635079 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 123104:123308, ack 37, win 501, length 204
+21:45:30.635123 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 110732, win 3091, length 0
+21:45:30.635144 IP cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819 > 143.110.223.72.ssh: Flags [.], ack 111548, win 3087, length 0
+21:45:30.635315 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 123308:123800, ack 37, win 501, length 492
+21:45:30.635445 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 123800:124004, ack 37, win 501, length 204
+21:45:30.635573 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 124004:124208, ack 37, win 501, length 204
+21:45:30.635700 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 124208:124412, ack 37, win 501, length 204
+21:45:30.635831 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 124412:124616, ack 37, win 501, length 204
+21:45:30.635953 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 124616:124820, ack 37, win 501, length 204
+21:45:30.636075 IP 143.110.223.72.ssh > cpe9050ca275d83-cm9050ca275d80.cpe.net.cable.rogers.com.64819: Flags [P.], seq 124820:125024, ack 37, win 501, length 204
